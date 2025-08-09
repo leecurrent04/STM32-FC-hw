@@ -9937,7 +9937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA216C80P15X15_1300X1300X110"
+		(property "Footprint" "STM32F746NGH6:STM32F746NGH6"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -11229,7 +11229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM06B-GHS-TB_06x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 252.73 33.02 0)
 			(effects
 				(font

@@ -5652,7 +5652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM06B-GHS-TB_06x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 215.9 50.8 0)
 			(effects
 				(font
