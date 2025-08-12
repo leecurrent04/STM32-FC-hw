@@ -3752,7 +3752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14209195-1317-405a-bdb3-865f5a611cbf")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 104.14 86.36 0)
 			(effects
 				(font
@@ -3802,7 +3802,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e8f8f44-1cd6-46df-a73f-c6b7087e929e")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -4290,7 +4290,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f6ab6a-8b77-4f78-a088-491792504d2b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 99.06 157.48 0)
 			(effects
 				(font
@@ -4588,7 +4588,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4935,7 +4935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3668f4de-291a-4caf-8c85-90519687720f")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR078"
 			(at 189.23 40.64 0)
 			(effects
 				(font
@@ -4985,7 +4985,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR077")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5001,7 +5001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "389b0c6a-a8da-4b9d-ac88-a47e68167cb0")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 104.14 101.6 0)
 			(effects
 				(font
@@ -5053,7 +5053,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5069,7 +5069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3037cd-3046-424e-9c9f-fc8eb75cc32f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 62.23 156.21 0)
 			(effects
 				(font
@@ -5121,7 +5121,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5507,7 +5507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490f2b67-9a36-4e74-96d6-7e869bb8008d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 90.17 158.75 0)
 			(effects
 				(font
@@ -5559,7 +5559,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5575,7 +5575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52a8a417-1694-4211-97af-4be898969d83")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 182.88 105.41 0)
 			(effects
 				(font
@@ -5627,7 +5627,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5643,7 +5643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68107d9d-9d28-4c8b-81ed-5ef63be77d2a")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -5693,7 +5693,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5709,7 +5709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70f1adf4-b2f4-4c15-bc8c-854a98205bc1")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 189.23 54.61 0)
 			(effects
 				(font
@@ -5761,7 +5761,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR078")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5987,7 +5987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c542dd3-f238-4ee3-b072-b975e20c795a")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 97.79 115.57 0)
 			(effects
 				(font
@@ -6039,7 +6039,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6055,7 +6055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f9f36f6-eeae-4f5f-8da4-77bc036d2e23")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 109.22 101.6 0)
 			(effects
 				(font
@@ -6107,7 +6107,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6123,7 +6123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820e4151-05cc-4cde-be00-fa2409818583")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 104.14 140.97 0)
 			(effects
 				(font
@@ -6173,7 +6173,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6189,7 +6189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86310d65-1d5e-4031-aab2-6c163944a37f")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR077"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -6241,7 +6241,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR076")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "986d4fab-11ba-4c96-97ab-c8f425644236")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 184.15 54.61 0)
 			(effects
 				(font
@@ -6431,7 +6431,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -6657,7 +6657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a693c97a-0b4c-473b-86d4-9d2a9df39f7d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 180.34 59.69 0)
 			(effects
 				(font
@@ -6709,7 +6709,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6725,7 +6725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aebbf410-ecdb-4ea3-9b3e-9be6ff7ef777")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -6775,7 +6775,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6791,7 +6791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b70dab44-58b5-4368-9149-99a78792593f")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 104.14 33.02 0)
 			(effects
 				(font
@@ -6841,7 +6841,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7016,7 +7016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b92d6622-cb23-43f6-805e-f88dd901c75d")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 99.06 140.97 0)
 			(effects
 				(font
@@ -7066,7 +7066,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7082,7 +7082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1f0a264-8a7c-4f97-9b7e-1d507ffa7b61")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 97.79 62.23 0)
 			(effects
 				(font
@@ -7134,7 +7134,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7360,7 +7360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4ee134f-8f38-436a-a55f-d29b91ae97b6")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7426,7 +7426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1c1e04-0761-4662-9140-3c671e620bf6")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 109.22 33.02 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7492,7 +7492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e159ecbe-929d-4aa3-b123-2bbefcd9fbaa")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 184.15 40.64 0)
 			(effects
 				(font
@@ -7542,7 +7542,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -7558,7 +7558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ed9010-9530-4936-9d1f-806fdfb53480")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 104.14 157.48 0)
 			(effects
 				(font
@@ -7610,7 +7610,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -7626,7 +7626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e956bea3-7796-4545-975a-688c89b10804")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 109.22 48.26 0)
 			(effects
 				(font
@@ -7678,7 +7678,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8112,7 +8112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe1318a8-3938-4243-919c-561f7efad01d")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -8164,7 +8164,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
