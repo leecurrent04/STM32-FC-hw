@@ -20737,7 +20737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM06B-GHS-TB_06x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -21307,7 +21307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 203.2 146.05 0)
 			(effects
 				(font
@@ -22505,7 +22505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM04B-GHS-TB_04x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 			(at 154.94 127 0)
 			(effects
 				(font
@@ -24312,7 +24312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM06B-GHS-TB_06x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 113.03 104.14 0)
 			(effects
 				(font
@@ -24747,7 +24747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM04B-GHS-TB_04x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 			(at 63.5 104.14 0)
 			(effects
 				(font
@@ -26814,7 +26814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM04B-GHS-TB_04x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 			(at 104.14 180.34 0)
 			(effects
 				(font
@@ -27519,7 +27519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM06B-GHS-TB_06x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 63.5 73.66 0)
 			(effects
 				(font
@@ -27956,7 +27956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM06B-GHS-TB_06x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 113.03 49.53 0)
 			(effects
 				(font
@@ -29108,7 +29108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST_GH:JST_GH_SM04B-GHS-TB_04x1.25mm_Angled"
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 			(at 104.14 140.97 0)
 			(effects
 				(font

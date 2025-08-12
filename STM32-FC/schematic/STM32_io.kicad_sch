@@ -18925,7 +18925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA216C80P15X15_1300X1300X110"
+		(property "Footprint" "STM32F746NGH6:STM32F746NGH6"
 			(at 214.122 36.068 0)
 			(effects
 				(font
@@ -21607,7 +21607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA216C80P15X15_1300X1300X110"
+		(property "Footprint" "STM32F746NGH6:STM32F746NGH6"
 			(at 328.422 36.068 0)
 			(effects
 				(font
