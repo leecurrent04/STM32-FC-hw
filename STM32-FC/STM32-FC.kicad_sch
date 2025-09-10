@@ -8847,7 +8847,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307415"
+		(property "LCSC" "C307423"
 			(at 43.18 40.6462 0)
 			(effects
 				(font
@@ -10052,6 +10052,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C503080"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E9"
 			(uuid "e2420ccf-0337-495e-bad7-58de905a1129")
 		)
@@ -11220,7 +11229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM06B-GHS-TBT"
+		(property "Value" "BM06B-GHS-TBT"
 			(at 250.19 35.56 0)
 			(effects
 				(font
@@ -11229,7 +11238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
 			(at 252.73 33.02 0)
 			(effects
 				(font
@@ -11346,7 +11355,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C133065"
+		(property "LCSC" "C189892"
 			(at 252.73 33.02 0)
 			(effects
 				(font

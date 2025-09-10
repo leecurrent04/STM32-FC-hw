@@ -1532,7 +1532,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3.3VA"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1553,7 +1553,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3.3VA"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1579,7 +1579,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1597,7 +1597,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3.3VA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1635,7 +1635,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3.3VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3457,7 +3457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01329824-c41e-4452-9c47-0cb388968a55")
-		(property "Reference" "C43"
+		(property "Reference" "C45"
 			(at 192.786 94.488 0)
 			(effects
 				(font
@@ -3651,7 +3651,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C43")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -3667,7 +3667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12560d3c-d4fc-4e86-9709-d05fa9c5e823")
-		(property "Reference" "C36"
+		(property "Reference" "C38"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -3861,73 +3861,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 104.14 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14209195-1317-405a-bdb3-865f5a611cbf")
-		(property "Reference" "#PWR062"
-			(at 104.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 104.14 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc8d9b34-a879-4df0-998e-7c0761fcb92d")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR062")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -3943,7 +3877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16222d5c-d7f5-4aaf-8b5c-cc53d574be17")
-		(property "Reference" "C45"
+		(property "Reference" "C47"
 			(at 197.866 94.488 0)
 			(effects
 				(font
@@ -4137,7 +4071,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C45")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -4153,7 +4087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c96b8ee-a09a-489f-87c1-d4c9d9b0250f")
-		(property "Reference" "C46"
+		(property "Reference" "C48"
 			(at 199.136 43.688 0)
 			(effects
 				(font
@@ -4347,7 +4281,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C46")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -4363,7 +4297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e8f8f44-1cd6-46df-a73f-c6b7087e929e")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -4415,7 +4349,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4430,7 +4364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24bce446-1f0b-4ff0-b306-57ce04a2fee5")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 165.1 32.258 0)
 			(effects
 				(font
@@ -4612,6 +4546,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5343527"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b423e86e-0068-430b-b616-0390734e6b1a")
 		)
@@ -4645,7 +4588,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4661,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f6ab6a-8b77-4f78-a088-491792504d2b")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR064"
 			(at 99.06 157.48 0)
 			(effects
 				(font
@@ -4713,7 +4656,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4729,7 +4672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ca59e76-f494-4c14-a764-ef73eec5f89b")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 76.2 22.86 0)
 			(effects
 				(font
@@ -4790,6 +4733,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22459454"
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "71f1db9b-0f7b-41fd-8205-3a14f6789435")
 		)
@@ -4835,7 +4787,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4850,7 +4802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ee53e76-e4d1-4ad1-bb2f-68dda4755143")
-		(property "Reference" "C39"
+		(property "Reference" "C41"
 			(at 104.14 99.568 0)
 			(effects
 				(font
@@ -4893,7 +4845,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C152819"
+		(property "LCSC" "C1525"
 			(at 106.68 90.1762 0)
 			(effects
 				(font
@@ -5044,24 +4996,23 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C39")
+					(reference "C41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 189.23 36.83 0)
+		(lib_id "power:+3.3VA")
+		(at 109.22 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3668f4de-291a-4caf-8c85-90519687720f")
-		(property "Reference" "#PWR078"
-			(at 189.23 40.64 0)
+		(uuid "370f3fd7-0faa-4d51-9354-2f43a0b09b8f")
+		(property "Reference" "#PWR073"
+			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,8 +5020,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 189.23 31.75 0)
+		(property "Value" "+3.3VA"
+			(at 109.22 76.2 90)
 			(effects
 				(font
 					(size 1 1)
@@ -5078,7 +5029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 36.83 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 36.83 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,8 +5046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 36.83 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,12 +5056,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "22145932-5353-4797-b9d1-1b1a2f5ae2ad")
+			(uuid "19d2c776-a2e1-4f7f-af88-9b78ff542caa")
 		)
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR078")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5126,7 +5077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "389b0c6a-a8da-4b9d-ac88-a47e68167cb0")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 104.14 101.6 0)
 			(effects
 				(font
@@ -5178,7 +5129,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5194,7 +5145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3037cd-3046-424e-9c9f-fc8eb75cc32f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR059"
 			(at 62.23 156.21 0)
 			(effects
 				(font
@@ -5246,7 +5197,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR054")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5261,7 +5212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40637f26-d476-46c4-a36d-8437e5471fdb")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR063"
 			(at 99.06 140.97 0)
 			(effects
 				(font
@@ -5311,7 +5262,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR0136")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5326,7 +5277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43d5164d-d90d-4887-97c2-f8a47c419240")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 109.22 46.228 0)
 			(effects
 				(font
@@ -5369,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C152819"
+		(property "LCSC" "C1525"
 			(at 111.76 36.8362 0)
 			(effects
 				(font
@@ -5520,7 +5471,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -5536,7 +5487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4767adff-5cd4-4c8e-9852-039ab289dd75")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 165.1 81.28 0)
 			(effects
 				(font
@@ -5544,7 +5495,7 @@
 				)
 			)
 		)
-		(property "Value" "BMP390"
+		(property "Value" "BMP390L"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -5648,6 +5599,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2684802"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "efd32380-ebf4-453a-b107-280ce856e7e6")
 		)
@@ -5681,7 +5641,7 @@
 		(instances
 			(project ""
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5697,7 +5657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490f2b67-9a36-4e74-96d6-7e869bb8008d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR060"
 			(at 90.17 158.75 0)
 			(effects
 				(font
@@ -5749,7 +5709,137 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR055")
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 104.14 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e147716-be32-4fe1-8689-b75681eba15e")
+		(property "Reference" "#PWR067"
+			(at 104.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 104.14 76.2 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44595c69-1a4d-4853-9bff-840165e16e60")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 189.23 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f42d107-9642-432e-b9e4-d9a90a9d54ac")
+		(property "Reference" "#PWR065"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 189.23 30.48 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28838f7d-b31a-4313-b4f7-a697530c35da")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5765,7 +5855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52a8a417-1694-4211-97af-4be898969d83")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR078"
 			(at 182.88 105.41 0)
 			(effects
 				(font
@@ -5817,24 +5907,23 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR073")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 109.22 82.55 0)
+		(lib_id "power:+3.3VA")
+		(at 182.88 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68107d9d-9d28-4c8b-81ed-5ef63be77d2a")
-		(property "Reference" "#PWR068"
-			(at 109.22 86.36 0)
+		(uuid "5a8c3f38-f15b-431b-8129-ec26c712ab87")
+		(property "Reference" "#PWR071"
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,8 +5931,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 109.22 77.47 0)
+		(property "Value" "+3.3VA"
+			(at 182.88 81.28 90)
 			(effects
 				(font
 					(size 1 1)
@@ -5851,7 +5940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 82.55 0)
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 82.55 0)
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,8 +5957,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 82.55 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,12 +5967,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "f377f81c-4cc4-4691-9226-aae2672a7b12")
+			(uuid "6656c6b2-d4d4-4896-834e-f5d6c7632880")
 		)
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR068")
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 187.96 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6708609b-bf8b-4cfe-b76f-da72712675c2")
+		(property "Reference" "#PWR077"
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 187.96 81.28 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 187.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04bb2026-2ac4-46a4-b244-3f78e78d77a1")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5899,7 +6053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70f1adf4-b2f4-4c15-bc8c-854a98205bc1")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR084"
 			(at 189.23 54.61 0)
 			(effects
 				(font
@@ -5951,7 +6105,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR079")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5967,7 +6121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74889fee-e663-455e-a556-dd7291af822d")
-		(property "Reference" "C44"
+		(property "Reference" "C46"
 			(at 194.056 43.688 0)
 			(effects
 				(font
@@ -6161,7 +6315,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -6177,7 +6331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c542dd3-f238-4ee3-b072-b975e20c795a")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR062"
 			(at 97.79 115.57 0)
 			(effects
 				(font
@@ -6229,7 +6383,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR057")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6245,7 +6399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f9f36f6-eeae-4f5f-8da4-77bc036d2e23")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR074"
 			(at 109.22 101.6 0)
 			(effects
 				(font
@@ -6297,73 +6451,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 104.14 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "820e4151-05cc-4cde-be00-fa2409818583")
-		(property "Reference" "#PWR064"
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 104.14 132.08 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcee5e34-08b7-45db-afde-1fda212c4771")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR064")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86310d65-1d5e-4031-aab2-6c163944a37f")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR082"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -6431,7 +6519,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR077")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8aca7a-91f5-488e-aa44-4f0d4d1315ad")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 76.2 76.2 0)
 			(effects
 				(font
@@ -6508,6 +6596,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22459454"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "19f903ca-38bc-4223-99e1-4b5861e7df93")
 		)
@@ -6553,7 +6650,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6569,7 +6666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "986d4fab-11ba-4c96-97ab-c8f425644236")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR080"
 			(at 184.15 54.61 0)
 			(effects
 				(font
@@ -6621,7 +6718,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR075")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -6637,7 +6734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0855d31-1c63-42f2-9cc1-7bc1aff9e31f")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 114.046 146.558 0)
 			(effects
 				(font
@@ -6831,7 +6928,72 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C40")
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 104.14 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3a760c7-397a-4b95-9e21-bfd01d7d3a16")
+		(property "Reference" "#PWR055"
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 104.14 22.86 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccae4840-d7a5-4d5e-b60b-cef4ea753c9e")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6847,7 +7009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a693c97a-0b4c-473b-86d4-9d2a9df39f7d")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR076"
 			(at 180.34 59.69 0)
 			(effects
 				(font
@@ -6899,72 +7061,6 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 187.96 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aebbf410-ecdb-4ea3-9b3e-9be6ff7ef777")
-		(property "Reference" "#PWR076"
-			(at 187.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 187.96 82.55 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a20005f-5cd4-4649-ac30-aa288c7da779")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
 					(reference "#PWR076")
 					(unit 1)
 				)
@@ -6972,17 +7068,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 104.14 29.21 0)
+		(lib_id "power:+3.3VA")
+		(at 104.14 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b70dab44-58b5-4368-9149-99a78792593f")
-		(property "Reference" "#PWR060"
-			(at 104.14 33.02 0)
+		(uuid "b45e4540-a85f-4dab-b7c0-865b896028d3")
+		(property "Reference" "#PWR069"
+			(at 104.14 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,8 +7085,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 104.14 24.13 0)
+		(property "Value" "+3.3VA"
+			(at 104.14 130.81 90)
 			(effects
 				(font
 					(size 1 1)
@@ -6999,7 +7094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 29.21 0)
+			(at 104.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +7103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 29.21 0)
+			(at 104.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,8 +7111,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 104.14 29.21 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 104.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,12 +7121,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "745e2b0d-5232-40ad-868f-6905cf6facd1")
+			(uuid "0afc86fd-aac9-4329-bb89-bcb03f88df1e")
 		)
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR060")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7047,7 +7142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b729251a-043b-4daa-b708-e3b572539fed")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 76.2 130.81 0)
 			(effects
 				(font
@@ -7160,6 +7255,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17225907"
+			(at 76.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A2"
 			(uuid "d89e832d-03e1-4263-88d5-05e202bedbd2")
 		)
@@ -7190,7 +7294,72 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "U7")
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 184.15 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beed0ebd-6482-4ca3-8fb8-7e9ae953c52c")
+		(property "Reference" "#PWR056"
+			(at 184.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 184.15 30.48 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b8966f6-7abe-4311-af32-b36435b651d8")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7206,7 +7375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1f0a264-8a7c-4f97-9b7e-1d507ffa7b61")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR061"
 			(at 97.79 62.23 0)
 			(effects
 				(font
@@ -7258,7 +7427,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR056")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7274,7 +7443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0bbea62-4e2a-4254-bb47-cb0c1f0ba81e")
-		(property "Reference" "C37"
+		(property "Reference" "C39"
 			(at 108.966 146.558 0)
 			(effects
 				(font
@@ -7468,205 +7637,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 182.88 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4ee134f-8f38-436a-a55f-d29b91ae97b6")
-		(property "Reference" "#PWR072"
-			(at 182.88 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 182.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d124016-54ab-4d71-8772-220384b6bacd")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 109.22 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df1c1e04-0761-4662-9140-3c671e620bf6")
-		(property "Reference" "#PWR066"
-			(at 109.22 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 109.22 24.13 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44c528a1-c6e3-41b9-a4d7-db349b70489d")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 184.15 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e159ecbe-929d-4aa3-b123-2bbefcd9fbaa")
-		(property "Reference" "#PWR074"
-			(at 184.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 184.15 31.75 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 184.15 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "257701c7-9d12-4c8a-89d4-396f4c8415fb")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR074")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -7682,7 +7653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ed9010-9530-4936-9d1f-806fdfb53480")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR070"
 			(at 104.14 157.48 0)
 			(effects
 				(font
@@ -7734,7 +7705,72 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR065")
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 109.22 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8059968-fb43-4f2c-b616-622efffeb12d")
+		(property "Reference" "#PWR051"
+			(at 109.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 109.22 22.86 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 109.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2c24787-cf25-400f-9262-64aec78e1fe9")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7750,7 +7786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e956bea3-7796-4545-975a-688c89b10804")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR072"
 			(at 109.22 48.26 0)
 			(effects
 				(font
@@ -7802,7 +7838,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR067")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7817,7 +7853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed237602-cf35-4dd3-932d-241caa85d73e")
-		(property "Reference" "C38"
+		(property "Reference" "C40"
 			(at 104.14 46.228 0)
 			(effects
 				(font
@@ -7860,7 +7896,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C152819"
+		(property "LCSC" "C1525"
 			(at 106.68 36.8362 0)
 			(effects
 				(font
@@ -8011,7 +8047,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C38")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -8026,7 +8062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f80a98d8-7eab-4832-81fa-7c8555718dd3")
-		(property "Reference" "C42"
+		(property "Reference" "C44"
 			(at 109.22 99.568 0)
 			(effects
 				(font
@@ -8069,7 +8105,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C152819"
+		(property "LCSC" "C1525"
 			(at 111.76 90.1762 0)
 			(effects
 				(font
@@ -8220,7 +8256,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "C42")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -8236,7 +8272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe1318a8-3938-4243-919c-561f7efad01d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR075"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -8288,7 +8324,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/2d70a10f-8989-40ff-9a87-2cfa97b94251"
-					(reference "#PWR070")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)

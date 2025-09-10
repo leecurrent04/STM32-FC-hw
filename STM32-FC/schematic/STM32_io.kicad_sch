@@ -19040,6 +19040,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C503080"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E9"
 			(uuid "839b8106-15c0-4478-934a-a63c19c9753c")
 		)
@@ -21714,6 +21723,15 @@
 			)
 		)
 		(property "JAK Electronics Price/Stock" ""
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C503080"
 			(at 199.39 91.44 0)
 			(effects
 				(font
