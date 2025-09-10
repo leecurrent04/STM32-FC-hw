@@ -22083,14 +22083,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10k"
-			(at 43.688 101.6 0)
+		(property "Value" "1k5"
+			(at 49.276 100.33 0)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -22210,7 +22209,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25531"
+		(property "LCSC" "C25867"
 			(at 50.8 100.33 0)
 			(effects
 				(font
@@ -25088,7 +25087,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 48.26 95.25 0)
+			(at 52.07 90.932 0)
 			(effects
 				(font
 					(size 1 1)
@@ -27735,8 +27734,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10k"
-			(at 46.228 101.6 0)
+		(property "Value" "1k5"
+			(at 49.022 99.568 0)
 			(effects
 				(font
 					(size 1 1)
@@ -27862,7 +27861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25531"
+		(property "LCSC" "C25867"
 			(at 53.34 100.33 0)
 			(effects
 				(font
