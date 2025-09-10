@@ -7913,7 +7913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 106.68 40.64 0)
 			(effects
 				(font
@@ -7931,7 +7931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "-55℃~+125℃ 120Ω 25V 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 106.68 40.64 0)
 			(effects
 				(font
@@ -8030,7 +8030,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C25079"
+		(property "LCSC" "C295718"
 			(at 106.68 40.64 0)
 			(effects
 				(font
@@ -8123,7 +8123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.88 41.91 0)
 			(effects
 				(font
@@ -8141,7 +8141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF 10V X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 55.88 41.91 0)
 			(effects
 				(font
@@ -8150,7 +8150,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C49062"
 			(at 53.34 40.6462 0)
 			(effects
 				(font
@@ -8333,7 +8333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 71.12 41.91 0)
 			(effects
 				(font
@@ -8351,7 +8351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF 10V X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 71.12 41.91 0)
 			(effects
 				(font
@@ -8360,7 +8360,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C49062"
 			(at 68.58 40.6462 0)
 			(effects
 				(font
@@ -8611,7 +8611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 66.04 41.91 0)
 			(effects
 				(font
@@ -8629,7 +8629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF 10V X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 66.04 41.91 0)
 			(effects
 				(font
@@ -8638,7 +8638,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C49062"
 			(at 63.5 40.6462 0)
 			(effects
 				(font
@@ -9030,7 +9030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 50.8 41.91 0)
 			(effects
 				(font
@@ -9048,7 +9048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF 10V X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 50.8 41.91 0)
 			(effects
 				(font
@@ -9057,7 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C49062"
 			(at 48.26 40.6462 0)
 			(effects
 				(font
@@ -9240,7 +9240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 45.72 41.91 0)
 			(effects
 				(font
@@ -9258,7 +9258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF 10V X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 45.72 41.91 0)
 			(effects
 				(font
@@ -9267,7 +9267,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C49062"
 			(at 43.18 40.6462 0)
 			(effects
 				(font
@@ -9518,7 +9518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -9536,7 +9536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF 10V X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -9545,7 +9545,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C49062"
 			(at 58.42 40.6462 0)
 			(effects
 				(font
@@ -9727,7 +9727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 125.73 44.45 0)
 			(effects
 				(font
@@ -9745,7 +9745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10pF 50V C0G ±1% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 125.73 44.45 0)
 			(effects
 				(font
@@ -9844,7 +9844,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1545"
+		(property "LCSC" "C384956"
 			(at 125.73 44.45 0)
 			(effects
 				(font
@@ -10744,7 +10744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -10762,7 +10762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10pF 50V C0G ±1% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -10861,7 +10861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1545"
+		(property "LCSC" "C384956"
 			(at 113.03 44.45 0)
 			(effects
 				(font

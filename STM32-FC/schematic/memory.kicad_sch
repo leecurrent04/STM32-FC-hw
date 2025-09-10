@@ -25623,7 +25623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04321aae-f9cb-4525-af52-13fb220adf50")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 153.67 19.304 0)
 			(effects
 				(font
@@ -25639,7 +25639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 153.67 27.94 0)
 			(effects
 				(font
@@ -25657,7 +25657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "-55℃~+125℃ 10kΩ 25V 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 153.67 27.94 0)
 			(effects
 				(font
@@ -25756,7 +25756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25531"
+		(property "LCSC" "C106225"
 			(at 153.67 27.94 0)
 			(effects
 				(font
@@ -25817,7 +25817,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -25832,7 +25832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40bbea63-e168-48ab-9700-c4dfd0cb2777")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 149.86 19.304 0)
 			(effects
 				(font
@@ -25848,7 +25848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 149.86 27.94 0)
 			(effects
 				(font
@@ -25866,7 +25866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "-55℃~+125℃ 10kΩ 25V 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 149.86 27.94 0)
 			(effects
 				(font
@@ -25965,7 +25965,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25531"
+		(property "LCSC" "C106225"
 			(at 149.86 27.94 0)
 			(effects
 				(font
@@ -26026,7 +26026,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -26041,7 +26041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "539c2ecb-bde9-47d9-aa3a-3873c32dcf17")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 146.05 19.304 0)
 			(effects
 				(font
@@ -26057,7 +26057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 146.05 27.94 0)
 			(effects
 				(font
@@ -26075,7 +26075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "-55℃~+125℃ 10kΩ 25V 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 146.05 27.94 0)
 			(effects
 				(font
@@ -26174,7 +26174,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25531"
+		(property "LCSC" "C106225"
 			(at 146.05 27.94 0)
 			(effects
 				(font
@@ -26235,7 +26235,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -26251,7 +26251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67617623-d025-4cc8-90e4-09c405bdad72")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR086"
 			(at 107.95 54.61 0)
 			(effects
 				(font
@@ -26302,7 +26302,7 @@
 		(instances
 			(project ""
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR089")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -26318,7 +26318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7141d9b4-0e9c-49b2-b5de-0cc306117b15")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR084"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -26369,7 +26369,7 @@
 		(instances
 			(project ""
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR087")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -26384,7 +26384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83ab5237-8be8-4c47-addd-bc67cdcf2543")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 138.43 19.304 0)
 			(effects
 				(font
@@ -26400,7 +26400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 138.43 27.94 0)
 			(effects
 				(font
@@ -26418,7 +26418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "-55℃~+125℃ 10kΩ 25V 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 138.43 27.94 0)
 			(effects
 				(font
@@ -26517,7 +26517,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25531"
+		(property "LCSC" "C106225"
 			(at 138.43 27.94 0)
 			(effects
 				(font
@@ -26578,7 +26578,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -26594,7 +26594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a50cbce6-2f5e-4053-8886-8f3d8a2dc282")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR082"
 			(at 64.77 30.48 0)
 			(effects
 				(font
@@ -26644,7 +26644,7 @@
 		(instances
 			(project ""
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR085")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -26659,7 +26659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae8d7951-88a1-4050-9f68-14b06b97c596")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 142.24 19.304 0)
 			(effects
 				(font
@@ -26675,7 +26675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -26693,7 +26693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "-55℃~+125℃ 10kΩ 25V 50mW Thick Film Resistor ±1% ±200ppm/℃ 0201 Chip Resistor - Surface Mount ROHS"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -26792,7 +26792,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25531"
+		(property "LCSC" "C106225"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -26853,7 +26853,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -26869,7 +26869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcc30056-9229-429d-b84a-7550e001543f")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR088"
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -26921,7 +26921,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR091")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -26936,7 +26936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0ce920d-b89e-40d2-bb16-47798b7f87b3")
-		(property "Reference" "C49"
+		(property "Reference" "C47"
 			(at 78.74 30.48 0)
 			(effects
 				(font
@@ -26954,7 +26954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -26972,7 +26972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF 10V X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -27071,7 +27071,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C49062"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -27132,7 +27132,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "C49")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -27147,7 +27147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6cf966f-0868-4947-ae03-9f2f09436be7")
-		(property "Reference" "C50"
+		(property "Reference" "C48"
 			(at 110.49 43.18 0)
 			(effects
 				(font
@@ -27165,7 +27165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -27183,7 +27183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100nF 10V X5R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -27282,7 +27282,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C49062"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -27343,7 +27343,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "C50")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -27480,7 +27480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de73b422-f262-4085-9df0-f9e259d0e428")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR085"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -27530,7 +27530,7 @@
 		(instances
 			(project ""
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR088")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -27546,7 +27546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecf11396-0252-44d3-af05-86acc2f0cc9f")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR089"
 			(at 203.2 63.5 0)
 			(effects
 				(font
@@ -27598,7 +27598,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR092")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -27614,7 +27614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12493f3-1e6f-40ee-ba2c-97af970f7a80")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR083"
 			(at 64.77 62.23 0)
 			(effects
 				(font
@@ -27665,7 +27665,7 @@
 		(instances
 			(project ""
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR086")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -27680,7 +27680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb82c0d3-078d-48c3-a16e-19d4e4329238")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 69.596 53.594 0)
 			(effects
 				(font
@@ -27897,7 +27897,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -27912,7 +27912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbdf2424-28c8-4a5c-8fdd-526400cdd8ab")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR087"
 			(at 157.48 24.13 0)
 			(effects
 				(font
@@ -27962,7 +27962,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR090")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
