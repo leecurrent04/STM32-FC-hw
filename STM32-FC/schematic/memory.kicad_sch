@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "20f27cd6-0646-49e4-a666-313938a6524b")
 	(paper "A4")
 	(title_block
-		(title "Memory")
-		(date "2025-02-08")
-		(rev "A")
+		(title "STM32 Flight Controller")
+		(date "2025-09-16")
+		(rev "v1.0.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
 		(comment 2 "2024 Winter UAV Project ")
@@ -15,9 +15,13 @@
 	(lib_symbols
 		(symbol "+3.3V_4"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -89,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -101,7 +105,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -132,11 +136,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -206,10 +215,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -218,10 +227,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -267,11 +276,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -341,7 +355,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -353,7 +367,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -400,12 +414,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_2"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -496,12 +515,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_5"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -592,6 +616,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TF-06A:TF-06A"
 			(exclude_from_sim no)
@@ -941,6 +966,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "W25X40CLUX:W25X40CLUX"
 			(exclude_from_sim no)
@@ -1021,6 +1047,42 @@
 						)
 					)
 				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DI(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -1050,60 +1112,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "DI(IO0)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1148,6 +1156,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 2.54 -12.7 90)
 					(length 2.54)
 					(name "TP"
@@ -1166,12 +1192,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1243,7 +1274,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1255,7 +1286,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1286,12 +1317,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1382,7 +1418,76 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 22.86 12.7)
+		(end 97.79 62.23)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31c171a6-20f1-4f3e-a875-8b4f9640c28b)
+	)
+	(rectangle
+		(start 100.33 12.7)
+		(end 215.9 62.23)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8dd9ac06-b69e-41b6-9bd2-35b5f9e9856e)
+	)
+	(text "Micro SD Card"
+		(exclude_from_sim no)
+		(at 101.346 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a12bb9e-ea8c-41ed-a995-8b73dfa619d5")
+	)
+	(text "SPI2_SCK  : PB13\nSPI2_MISO : PB14\nSPI2_MOSI : PB15\n\nFLASH_NSS : PC13"
+		(exclude_from_sim no)
+		(at 23.876 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "464b9112-fec4-4a2f-b35f-c1cdeefbb6eb")
+	)
+	(text "Flash Memory"
+		(exclude_from_sim no)
+		(at 23.876 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79d18630-c19b-48d6-ae52-01b22b5cbb6a")
+	)
+	(text "SPI2_SCK  : PB13\nSPI2_MISO : PB14\nSPI2_MOSI : PB15\n\nMSD_NSS    : PD7\nMSD_DETECT : PC15"
+		(exclude_from_sim no)
+		(at 101.346 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dcb76f30-4f2c-4bf0-acbf-192ceb169baf")
 	)
 	(junction
 		(at 80.01 22.86)
@@ -2004,74 +2109,6 @@
 		)
 		(uuid "fe494f65-ab86-4517-bd0d-882d2015f7a7")
 	)
-	(rectangle
-		(start 22.86 12.7)
-		(end 97.79 62.23)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 31c171a6-20f1-4f3e-a875-8b4f9640c28b)
-	)
-	(rectangle
-		(start 100.33 12.7)
-		(end 215.9 62.23)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8dd9ac06-b69e-41b6-9bd2-35b5f9e9856e)
-	)
-	(text "Micro SD Card"
-		(exclude_from_sim no)
-		(at 101.346 15.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a12bb9e-ea8c-41ed-a995-8b73dfa619d5")
-	)
-	(text "SPI2_SCK  : PB13\nSPI2_MISO : PB14\nSPI2_MOSI : PB15\n\nFLASH_NSS : PC13"
-		(exclude_from_sim no)
-		(at 23.876 18.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "464b9112-fec4-4a2f-b35f-c1cdeefbb6eb")
-	)
-	(text "Flash Memory"
-		(exclude_from_sim no)
-		(at 23.876 15.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79d18630-c19b-48d6-ae52-01b22b5cbb6a")
-	)
-	(text "SPI2_SCK  : PB13\nSPI2_MISO : PB14\nSPI2_MOSI : PB15\n\nMSD_NSS    : PD7\nMSD_DETECT : PC15"
-		(exclude_from_sim no)
-		(at 101.346 18.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "dcb76f30-4f2c-4bf0-acbf-192ceb169baf")
-	)
 	(label "MEM_SPI_MISO"
 		(at 57.15 36.83 0)
 		(effects
@@ -2463,7 +2500,7 @@
 			(uuid "45dae3ed-ce9f-4a09-89c3-dd5c78f8b0a1")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
 					(reference "#PWR042")
 					(unit 1)
@@ -2708,7 +2745,7 @@
 			(uuid "8605b375-d875-4b35-a060-f88cc540a6fd")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
 					(reference "#PWR047")
 					(unit 1)
@@ -2775,7 +2812,7 @@
 			(uuid "b5f3f3bb-4692-41da-871e-d5528707b390")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
 					(reference "#PWR043")
 					(unit 1)
@@ -3360,7 +3397,7 @@
 			(uuid "df285dcb-ede7-4aa6-86da-f235265e6030")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
 					(reference "J4")
 					(unit 1)
@@ -3426,7 +3463,7 @@
 			(uuid "c14d2e0f-6911-44d4-8819-c0113da56110")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
 					(reference "#PWR044")
 					(unit 1)
@@ -4091,7 +4128,7 @@
 			(uuid "73220807-3e89-46c3-a9ca-03cf824ab3b4")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
 					(reference "#PWR046")
 					(unit 1)
@@ -4158,7 +4195,7 @@
 			(uuid "83c48521-3399-4da8-ae71-57f5f74b6c05")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
 					(reference "#PWR045")
 					(unit 1)

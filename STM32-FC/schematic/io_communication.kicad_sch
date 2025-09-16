@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8c9bb299-26bd-43e0-a65e-cd871ef4de6d")
 	(paper "A4")
 	(title_block
-		(title "Communication")
-		(date "2025-02-08")
-		(rev "A")
+		(title "STM32 Flight Controller")
+		(date "2025-09-16")
+		(rev "v1.0.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
 		(comment 2 "2024 Winter UAV Project ")
@@ -61,6 +61,42 @@
 				)
 			)
 			(symbol "ATA6561-GBQW_2_0_1"
+				(pin power_in line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at -8.89 -1.27 0)
 					(length 2.54)
@@ -72,42 +108,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 5.08 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -134,16 +134,34 @@
 					)
 				)
 				(pin power_in line
-					(at -8.89 3.81 0)
+					(at 8.89 5.08 180)
 					(length 2.54)
-					(name "VIO"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -169,24 +187,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "STBY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "ATA6561-GBQW_2_1_1"
 				(rectangle
@@ -194,28 +194,11 @@
 					(end 6.35 -6.35)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 				(pin power_in line
@@ -236,11 +219,32 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -307,19 +311,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -340,8 +344,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -351,14 +355,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -434,10 +438,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -504,41 +511,19 @@
 			)
 			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -559,8 +544,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -570,14 +555,36 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -689,11 +696,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -763,10 +775,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -775,10 +787,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -824,11 +836,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -898,7 +915,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -910,7 +927,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -957,12 +974,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1034,7 +1056,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1046,7 +1068,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1077,12 +1099,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1154,7 +1181,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1166,7 +1193,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1197,12 +1224,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1293,7 +1325,178 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 22.86 12.7)
+		(end 86.36 50.8)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0b6fa750-b89f-4539-bf55-0085d93addc3)
+	)
+	(rectangle
+		(start 22.86 53.34)
+		(end 86.36 91.44)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 53783c64-0e0c-40c9-ad86-06ab4cbbaa4a)
+	)
+	(rectangle
+		(start 88.9 53.34)
+		(end 190.5 91.44)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b381b712-6e3b-4a63-8275-612f83950cd3)
+	)
+	(rectangle
+		(start 88.9 12.7)
+		(end 190.5 50.8)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dc933390-3147-4401-af75-2c54248ec696)
+	)
+	(rectangle
+		(start 22.86 93.98)
+		(end 86.36 132.08)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0f419cb-9988-428b-a2f0-7aa6c8c772fc)
+	)
+	(text "CAN2"
+		(exclude_from_sim no)
+		(at 89.916 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24734667-96e9-4557-a8b4-1d9c599fffdd")
+	)
+	(text "GH 1.25mm 4P\n\nCAN2_STBY : PC5\nCAN2_RX : PB6\nCAN2_TX : PB12"
+		(exclude_from_sim no)
+		(at 89.916 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "30e6d746-600b-4956-a39a-bc0dfb02c96a")
+	)
+	(text "GH 1.25mm 4P\n\nCAN1_STBY : PC4\nCAN1_RX : PD0\nCAN1_TX : PD1"
+		(exclude_from_sim no)
+		(at 89.916 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "31b374ca-b9b9-4e85-b12a-1c8f94de71ee")
+	)
+	(text "TELE1"
+		(exclude_from_sim no)
+		(at 23.876 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "499c3e77-271b-4d80-bb2f-d356754a04c2")
+	)
+	(text "CAN1"
+		(exclude_from_sim no)
+		(at 89.916 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cb5e636-d123-4a69-ab68-6d3c7ab6f0c8")
+	)
+	(text "GH 1.25mm 6P\n\nPD5 : UART2_TX\nPD6 : UART2_RX\nPD3 : UART2_CTS\nPD4 : UART2_RTS"
+		(exclude_from_sim no)
+		(at 23.876 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5146cbc3-227e-4ee0-82aa-d99a74bdb5f0")
+	)
+	(text "GH 1.25mm 6P\n\nPD8 : UART3_TX\nPD9 : UART3_RX\nPD11 : UART3_CTS\nPD12 : UART3_RTS"
+		(exclude_from_sim no)
+		(at 23.876 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "861616b6-074d-4f5b-a9f7-e3d1a462e964")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 23.876 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cbce46f-feb2-4ed2-b239-8414eb484724")
+	)
+	(text "GH 1.25mm 4P\n\nPB8 : I2C1_SCL\nPB9 : I2C1_SDA"
+		(exclude_from_sim no)
+		(at 23.876 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a5de9894-37cd-4f8f-ae1b-8d2ca2ce6c1e")
+	)
+	(text "TELE2"
+		(exclude_from_sim no)
+		(at 23.876 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa1048df-0689-4d1e-b8ee-9acb09e4979c")
 	)
 	(junction
 		(at 144.78 33.02)
@@ -2387,176 +2590,6 @@
 		)
 		(uuid "feae0e81-e0fc-4499-816c-c1fe8b82d099")
 	)
-	(rectangle
-		(start 22.86 12.7)
-		(end 86.36 50.8)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0b6fa750-b89f-4539-bf55-0085d93addc3)
-	)
-	(rectangle
-		(start 22.86 53.34)
-		(end 86.36 91.44)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 53783c64-0e0c-40c9-ad86-06ab4cbbaa4a)
-	)
-	(rectangle
-		(start 88.9 53.34)
-		(end 190.5 91.44)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b381b712-6e3b-4a63-8275-612f83950cd3)
-	)
-	(rectangle
-		(start 88.9 12.7)
-		(end 190.5 50.8)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid dc933390-3147-4401-af75-2c54248ec696)
-	)
-	(rectangle
-		(start 22.86 93.98)
-		(end 86.36 132.08)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f0f419cb-9988-428b-a2f0-7aa6c8c772fc)
-	)
-	(text "CAN2"
-		(exclude_from_sim no)
-		(at 89.916 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24734667-96e9-4557-a8b4-1d9c599fffdd")
-	)
-	(text "GH 1.25mm 4P\n\nCAN2_STBY : PC5\nCAN2_RX : PB6\nCAN2_TX : PB12"
-		(exclude_from_sim no)
-		(at 89.916 58.674 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "30e6d746-600b-4956-a39a-bc0dfb02c96a")
-	)
-	(text "GH 1.25mm 4P\n\nCAN1_STBY : PC4\nCAN1_RX : PD0\nCAN1_TX : PD1"
-		(exclude_from_sim no)
-		(at 89.916 18.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "31b374ca-b9b9-4e85-b12a-1c8f94de71ee")
-	)
-	(text "TELE1"
-		(exclude_from_sim no)
-		(at 23.876 15.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "499c3e77-271b-4d80-bb2f-d356754a04c2")
-	)
-	(text "CAN1"
-		(exclude_from_sim no)
-		(at 89.916 15.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cb5e636-d123-4a69-ab68-6d3c7ab6f0c8")
-	)
-	(text "GH 1.25mm 6P\n\nPD5 : UART2_TX\nPD6 : UART2_RX\nPD3 : UART2_CTS\nPD4 : UART2_RTS"
-		(exclude_from_sim no)
-		(at 23.876 18.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "5146cbc3-227e-4ee0-82aa-d99a74bdb5f0")
-	)
-	(text "GH 1.25mm 6P\n\nPD8 : UART3_TX\nPD9 : UART3_RX\nPD11 : UART3_CTS\nPD12 : UART3_RTS"
-		(exclude_from_sim no)
-		(at 23.876 58.674 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "861616b6-074d-4f5b-a9f7-e3d1a462e964")
-	)
-	(text "I2C"
-		(exclude_from_sim no)
-		(at 23.876 96.774 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cbce46f-feb2-4ed2-b239-8414eb484724")
-	)
-	(text "GH 1.25mm 4P\n\nI2C_SCL : PB8 : I2C1_SCL\nI2C_SCL : PB9 : I2C1_SDA"
-		(exclude_from_sim no)
-		(at 23.876 99.314 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a5de9894-37cd-4f8f-ae1b-8d2ca2ce6c1e")
-	)
-	(text "TELE2"
-		(exclude_from_sim no)
-		(at 23.876 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa1048df-0689-4d1e-b8ee-9acb09e4979c")
-	)
 	(label "CAN2_P"
 		(at 165.1 76.2 180)
 		(effects
@@ -2831,7 +2864,7 @@
 			(uuid "224b4fcd-28fe-4d5e-b072-81e9bea46242")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0103")
 					(unit 1)
@@ -3073,7 +3106,7 @@
 			(uuid "1ae53205-8547-4bcc-9d60-b62f75b40ed0")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR097")
 					(unit 1)
@@ -3140,7 +3173,7 @@
 			(uuid "07e6adb4-a3d1-4942-81e7-1ffa5ec32baa")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR095")
 					(unit 1)
@@ -3395,7 +3428,7 @@
 			(uuid "9a0062e1-bb2d-48e0-a1cd-249df4b49bb2")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0106")
 					(unit 1)
@@ -3461,7 +3494,7 @@
 			(uuid "f29d0b40-4e51-4a59-b08b-6fb2970dd547")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0108")
 					(unit 1)
@@ -3707,7 +3740,7 @@
 			(uuid "bb5ac991-b708-4004-9d4a-aec13f07a62d")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR096")
 					(unit 1)
@@ -3948,7 +3981,7 @@
 			(uuid "ced88d66-e2ca-478b-a329-f3fbf174c519")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0100")
 					(unit 1)
@@ -4368,7 +4401,7 @@
 			(uuid "27cd751c-38ea-4013-9983-b73df3a04f95")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR094")
 					(unit 1)
@@ -4436,7 +4469,7 @@
 			(uuid "28d49eed-3429-41c8-b83c-13ded2aa34fc")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR099")
 					(unit 1)
@@ -4864,7 +4897,7 @@
 			(uuid "02997972-26ca-4517-9033-ae8d1c808867")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0107")
 					(unit 1)
@@ -4930,7 +4963,7 @@
 			(uuid "6e86a0b8-4d83-42a3-910b-0c682ece52fe")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR091")
 					(unit 1)
@@ -4998,7 +5031,7 @@
 			(uuid "b6669acd-9bfe-49d4-9563-c9ac62096bf7")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0104")
 					(unit 1)
@@ -5066,7 +5099,7 @@
 			(uuid "e20c9c4a-f8fe-4266-8f08-1987f7a7a8f2")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0105")
 					(unit 1)
@@ -5328,7 +5361,7 @@
 			(uuid "1eefce32-548b-462d-81b7-2a9bad6d3138")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0101")
 					(unit 1)
@@ -5394,7 +5427,7 @@
 			(uuid "0111efac-d842-4f30-a8ae-e20f3e0c0f79")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR089")
 					(unit 1)
@@ -5461,7 +5494,7 @@
 			(uuid "3424e1b4-d1ab-40ff-919c-76fde18be7ee")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0109")
 					(unit 1)
@@ -6061,7 +6094,7 @@
 			(uuid "dba1b0b3-9093-47ed-be6b-2adf9af0461f")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR090")
 					(unit 1)
@@ -6498,7 +6531,7 @@
 			(uuid "f49368ba-e5e5-475f-9012-9d41deb2c9c6")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR098")
 					(unit 1)
@@ -6739,7 +6772,7 @@
 			(uuid "0f5071e0-7164-4894-b42f-0c32f113b4be")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR0102")
 					(unit 1)
@@ -6806,7 +6839,7 @@
 			(uuid "55e7c989-0476-4bee-9af1-68cef18c6519")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR093")
 					(unit 1)
@@ -7251,7 +7284,7 @@
 			(uuid "e93705fc-9bd6-4dd6-8115-5454d2877309")
 		)
 		(instances
-			(project ""
+			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a2773f19-5d2b-46e4-ac82-0d57be5829df"
 					(reference "#PWR092")
 					(unit 1)
