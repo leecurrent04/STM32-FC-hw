@@ -24973,31 +24973,37 @@
 		(uuid "00a71d2e-9684-4b57-872d-7181821debf2")
 	)
 	(junction
+		(at 153.67 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09b1899b-0c19-4b01-986c-8a9e934ad064")
+	)
+	(junction
+		(at 149.86 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2275219d-a3bc-4709-8ce5-33a3e025e2ef")
+	)
+	(junction
 		(at 157.48 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39e67a77-a2d3-4f65-bb74-407c0fdb53cf")
 	)
 	(junction
-		(at 149.86 48.26)
+		(at 153.67 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56085d3d-2708-444b-9a0c-83edf8608619")
+		(uuid "3c2a8fdd-1e19-45ba-b44f-0ffc49529080")
 	)
 	(junction
-		(at 153.67 50.8)
+		(at 134.62 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ab0fa13-ad0b-42dd-8507-3d189eaa1026")
+		(uuid "4daf4466-8819-4db7-8be6-f347d8751998")
 	)
 	(junction
-		(at 153.67 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b9c4f67-96e3-4e28-8591-d705ea3afd45")
-	)
-	(junction
-		(at 149.86 24.13)
+		(at 146.05 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "639c8933-fade-46f7-b47f-4f3cf36d9dfc")
@@ -25009,22 +25015,34 @@
 		(uuid "6703ceb6-4133-469e-9dc2-bc0231225eb9")
 	)
 	(junction
-		(at 146.05 38.1)
+		(at 146.05 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77254740-e51b-4fb5-bf6c-fe0b8a67b58d")
+		(uuid "729c752a-4868-42ed-b2cf-76eb3e256130")
 	)
 	(junction
-		(at 146.05 24.13)
+		(at 138.43 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7920490d-6d7d-4987-84dd-5d20cbf1738e")
+	)
+	(junction
+		(at 149.86 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79615389-68e5-4d7f-a8fb-7283f5677b45")
+	)
+	(junction
+		(at 142.24 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a808d05c-9b35-4960-9d3c-90d4e7d12b29")
 	)
 	(junction
-		(at 138.43 33.02)
+		(at 142.24 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eefa3dbd-14ff-4972-80a1-826b4f8fd171")
+		(uuid "ba224950-2bcf-4730-bc7e-e33023b8125d")
 	)
 	(junction
 		(at 68.58 41.91)
@@ -25033,13 +25051,7 @@
 		(uuid "f1bb2b34-4f5f-45a3-9c3c-c63b572b80a2")
 	)
 	(junction
-		(at 142.24 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1bb60d0-1ae2-44c9-9b58-d42164dcd942")
-	)
-	(junction
-		(at 142.24 24.13)
+		(at 138.43 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3c9fdac-7253-4e81-a69f-136cfd073f77")
@@ -25060,13 +25072,33 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 24.13) (xy 157.48 24.13)
+			(xy 153.67 53.34) (xy 158.75 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09792b7c-8ed0-4dc0-8c94-888a6a2d984f")
+		(uuid "146d7749-f893-4162-996d-e5d86188712f")
+	)
+	(wire
+		(pts
+			(xy 142.24 30.48) (xy 142.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ba88ec-36c9-4854-95ce-bff9a7a0eb0f")
+	)
+	(wire
+		(pts
+			(xy 138.43 35.56) (xy 158.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213f64ae-15a7-4d9a-bebb-dc4e90d2c367")
 	)
 	(wire
 		(pts
@@ -25080,7 +25112,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 38.1) (xy 158.75 38.1)
+			(xy 142.24 38.1) (xy 158.75 38.1)
 		)
 		(stroke
 			(width 0)
@@ -25090,33 +25122,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 53.34) (xy 158.75 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346266e4-8408-47f0-a001-cb4db4e7070a")
-	)
-	(wire
-		(pts
-			(xy 153.67 24.13) (xy 153.67 25.4)
+			(xy 149.86 24.13) (xy 149.86 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "38205022-9ba3-4bd3-aefb-5a6a79ba3e9e")
-	)
-	(wire
-		(pts
-			(xy 146.05 30.48) (xy 146.05 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a3550ff-7821-4ea4-b0ff-342cf95379f2")
 	)
 	(wire
 		(pts
@@ -25130,7 +25142,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 24.13) (xy 149.86 24.13)
+			(xy 130.81 53.34) (xy 153.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d94e42c-12d5-4c62-9cc5-bf122d379a94")
+	)
+	(wire
+		(pts
+			(xy 142.24 24.13) (xy 146.05 24.13)
 		)
 		(stroke
 			(width 0)
@@ -25140,7 +25162,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 50.8) (xy 153.67 50.8)
+			(xy 130.81 50.8) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -25160,7 +25182,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 48.26) (xy 158.75 48.26)
+			(xy 146.05 48.26) (xy 158.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -25180,7 +25202,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 24.13) (xy 146.05 24.13)
+			(xy 138.43 24.13) (xy 142.24 24.13)
 		)
 		(stroke
 			(width 0)
@@ -25190,17 +25212,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 33.02) (xy 142.24 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9ede90-044c-41f0-82d9-952b9b0c6a2a")
-	)
-	(wire
-		(pts
-			(xy 138.43 30.48) (xy 138.43 33.02)
+			(xy 134.62 30.48) (xy 134.62 33.02)
 		)
 		(stroke
 			(width 0)
@@ -25230,13 +25242,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 158.75 33.02)
+			(xy 153.67 24.13) (xy 153.67 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64213a68-d9f1-4fe5-a840-c107ecb7fcbd")
+		(uuid "67c17bed-2bfb-4734-91ab-432cf5f41db2")
 	)
 	(wire
 		(pts
@@ -25260,7 +25272,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 24.13) (xy 153.67 24.13)
+			(xy 146.05 24.13) (xy 149.86 24.13)
 		)
 		(stroke
 			(width 0)
@@ -25270,7 +25282,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 24.13) (xy 149.86 25.4)
+			(xy 146.05 24.13) (xy 146.05 25.4)
 		)
 		(stroke
 			(width 0)
@@ -25280,7 +25292,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 25.4) (xy 138.43 24.13)
+			(xy 134.62 25.4) (xy 134.62 24.13)
 		)
 		(stroke
 			(width 0)
@@ -25340,7 +25352,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 30.48) (xy 149.86 48.26)
+			(xy 146.05 30.48) (xy 146.05 48.26)
 		)
 		(stroke
 			(width 0)
@@ -25350,7 +25362,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 48.26) (xy 149.86 48.26)
+			(xy 130.81 48.26) (xy 146.05 48.26)
 		)
 		(stroke
 			(width 0)
@@ -25360,7 +25372,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 24.13) (xy 142.24 25.4)
+			(xy 138.43 24.13) (xy 138.43 25.4)
 		)
 		(stroke
 			(width 0)
@@ -25400,7 +25412,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 24.13) (xy 146.05 25.4)
+			(xy 142.24 24.13) (xy 142.24 25.4)
 		)
 		(stroke
 			(width 0)
@@ -25417,16 +25429,6 @@
 			(type default)
 		)
 		(uuid "a6008bc8-a7a6-48c1-b255-3c88146e525d")
-	)
-	(wire
-		(pts
-			(xy 142.24 30.48) (xy 142.24 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a679d839-858f-4f65-97de-7c917ac2ca96")
 	)
 	(wire
 		(pts
@@ -25450,6 +25452,36 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 24.13) (xy 157.48 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf7984e-d2be-49b3-acf8-9b1c7396ecea")
+	)
+	(wire
+		(pts
+			(xy 138.43 30.48) (xy 138.43 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acab9f7d-ba5f-4ffb-a280-3de223e9a319")
+	)
+	(wire
+		(pts
+			(xy 149.86 50.8) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13dc84b-d389-4d48-8f5b-16d13dec8c6c")
+	)
+	(wire
+		(pts
 			(xy 157.48 20.32) (xy 157.48 24.13)
 		)
 		(stroke
@@ -25467,6 +25499,16 @@
 			(type default)
 		)
 		(uuid "bb4d556e-1813-499b-8267-6727e0c091ad")
+	)
+	(wire
+		(pts
+			(xy 130.81 43.18) (xy 158.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19d1728-0576-416c-9b55-4cbf7bc8e234")
 	)
 	(wire
 		(pts
@@ -25490,17 +25532,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 158.75 43.18)
+			(xy 149.86 24.13) (xy 153.67 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d015f09a-bc45-4064-8c54-7073112a6e31")
+		(uuid "d4883e6d-331c-4d5b-a499-518776bed744")
 	)
 	(wire
 		(pts
-			(xy 134.62 35.56) (xy 158.75 35.56)
+			(xy 130.81 35.56) (xy 138.43 35.56)
 		)
 		(stroke
 			(width 0)
@@ -25510,7 +25552,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 30.48) (xy 153.67 50.8)
+			(xy 149.86 30.48) (xy 149.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -25520,7 +25562,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 38.1) (xy 146.05 38.1)
+			(xy 130.81 38.1) (xy 142.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -25540,7 +25582,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 24.13) (xy 142.24 24.13)
+			(xy 134.62 24.13) (xy 138.43 24.13)
 		)
 		(stroke
 			(width 0)
@@ -25550,13 +25592,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 50.8) (xy 158.75 50.8)
+			(xy 153.67 30.48) (xy 153.67 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e00a8ef0-b307-4845-a5f3-19930a054d3b")
+		(uuid "e87e327b-903d-4341-9794-d63d5e48b2fa")
 	)
 	(wire
 		(pts
@@ -25570,7 +25612,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 33.02) (xy 138.43 33.02)
+			(xy 130.81 33.02) (xy 134.62 33.02)
 		)
 		(stroke
 			(width 0)
@@ -25598,9 +25640,19 @@
 		)
 		(uuid "f1d163ae-0ec6-47d0-ad8f-5b856eb3af59")
 	)
+	(wire
+		(pts
+			(xy 134.62 33.02) (xy 158.75 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa13159-b5cf-4ca5-b34d-78a6d8dd512a")
+	)
 	(hierarchical_label "MSD_D3"
 		(shape bidirectional)
-		(at 134.62 35.56 180)
+		(at 130.81 35.56 180)
 		(effects
 			(font
 				(size 1 1)
@@ -25611,7 +25663,7 @@
 	)
 	(hierarchical_label "MSD_D2"
 		(shape bidirectional)
-		(at 134.62 33.02 180)
+		(at 130.81 33.02 180)
 		(effects
 			(font
 				(size 1 1)
@@ -25622,7 +25674,7 @@
 	)
 	(hierarchical_label "MSD_D0"
 		(shape bidirectional)
-		(at 134.62 48.26 180)
+		(at 130.81 48.26 180)
 		(effects
 			(font
 				(size 1 1)
@@ -25655,7 +25707,7 @@
 	)
 	(hierarchical_label "MSD_D1"
 		(shape bidirectional)
-		(at 134.62 50.8 180)
+		(at 130.81 50.8 180)
 		(effects
 			(font
 				(size 1 1)
@@ -25688,7 +25740,7 @@
 	)
 	(hierarchical_label "MSD_CMD"
 		(shape output)
-		(at 134.62 38.1 180)
+		(at 130.81 38.1 180)
 		(effects
 			(font
 				(size 1 1)
@@ -25710,7 +25762,7 @@
 	)
 	(hierarchical_label "MSD_CK"
 		(shape output)
-		(at 134.62 43.18 180)
+		(at 130.81 43.18 180)
 		(effects
 			(font
 				(size 1 1)
@@ -25743,7 +25795,7 @@
 	)
 	(hierarchical_label "MSD_DET"
 		(shape input)
-		(at 134.62 53.34 180)
+		(at 130.81 53.34 180)
 		(effects
 			(font
 				(size 1 1)
@@ -25754,7 +25806,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 153.67 27.94 0)
+		(at 149.86 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25762,7 +25814,7 @@
 		(dnp no)
 		(uuid "04321aae-f9cb-4525-af52-13fb220adf50")
 		(property "Reference" "R17"
-			(at 153.67 19.304 0)
+			(at 149.86 19.304 0)
 			(effects
 				(font
 					(size 1 1)
@@ -25770,7 +25822,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 153.67 21.59 0)
+			(at 149.86 21.59 0)
 			(effects
 				(font
 					(size 1 1)
@@ -25778,7 +25830,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25787,7 +25839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25796,7 +25848,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25805,7 +25857,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25814,7 +25866,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25823,7 +25875,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25832,7 +25884,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25841,7 +25893,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25850,7 +25902,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25859,7 +25911,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25868,7 +25920,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25877,7 +25929,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25886,7 +25938,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,7 +25947,7 @@
 			)
 		)
 		(property "LCSC" "C25531"
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25904,7 +25956,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25913,7 +25965,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25921,7 +25973,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25929,7 +25981,7 @@
 			)
 		)
 		(property "JAK Electronics Part Number" ""
-			(at 153.67 27.94 90)
+			(at 149.86 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25938,7 +25990,7 @@
 			)
 		)
 		(property "JAK Electronics Price/Stock" ""
-			(at 153.67 27.94 90)
+			(at 149.86 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25947,7 +25999,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25956,7 +26008,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25965,7 +26017,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 153.67 27.94 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26272,7 +26324,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 146.05 27.94 0)
+		(at 142.24 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26280,376 +26332,6 @@
 		(dnp no)
 		(uuid "54f753e9-41da-49eb-a17b-40d99625888d")
 		(property "Reference" "R15"
-			(at 146.05 19.304 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 146.05 21.59 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25531"
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JAK Electronics Part Number" ""
-			(at 146.05 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JAK Electronics Price/Stock" ""
-			(at 146.05 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 146.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a51f029-d43a-4e83-8b00-a08960a49348")
-		)
-		(pin "2"
-			(uuid "566228da-1a6d-43f9-aae6-4c38278da7c5")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "593572e3-8c93-4d2d-9b57-4c67c2546c88")
-		(property "Reference" "#PWR051"
-			(at 107.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28400e84-b834-4796-95ab-846dd338d734")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7141d9b4-0e9c-49b2-b5de-0cc306117b15")
-		(property "Reference" "#PWR047"
-			(at 38.1 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5f3f3bb-4692-41da-871e-d5528707b390")
-		)
-		(instances
-			(project "STM32-FC"
-				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 142.24 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c8578ab-dbf5-4924-89a8-192f28973013")
-		(property "Reference" "R14"
 			(at 142.24 19.304 0)
 			(effects
 				(font
@@ -26854,6 +26536,376 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 142.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a51f029-d43a-4e83-8b00-a08960a49348")
+		)
+		(pin "2"
+			(uuid "566228da-1a6d-43f9-aae6-4c38278da7c5")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "593572e3-8c93-4d2d-9b57-4c67c2546c88")
+		(property "Reference" "#PWR051"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28400e84-b834-4796-95ab-846dd338d734")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7141d9b4-0e9c-49b2-b5de-0cc306117b15")
+		(property "Reference" "#PWR047"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f3f3bb-4692-41da-871e-d5528707b390")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 138.43 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c8578ab-dbf5-4924-89a8-192f28973013")
+		(property "Reference" "R14"
+			(at 138.43 19.304 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 21.59 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25531"
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JAK Electronics Part Number" ""
+			(at 138.43 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JAK Electronics Price/Stock" ""
+			(at 138.43 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 138.43 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27284,7 +27336,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 149.86 27.94 0)
+		(at 146.05 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27292,7 +27344,7 @@
 		(dnp no)
 		(uuid "9ed8f589-e4c1-42cd-a387-44994c045887")
 		(property "Reference" "R16"
-			(at 149.86 19.304 0)
+			(at 146.05 19.304 0)
 			(effects
 				(font
 					(size 1 1)
@@ -27300,7 +27352,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 149.86 21.59 0)
+			(at 146.05 21.59 0)
 			(effects
 				(font
 					(size 1 1)
@@ -27308,7 +27360,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27317,7 +27369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27326,7 +27378,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27335,7 +27387,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27344,7 +27396,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27353,7 +27405,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27362,7 +27414,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27371,7 +27423,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27380,7 +27432,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27389,7 +27441,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27398,7 +27450,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27407,7 +27459,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27416,7 +27468,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27425,7 +27477,7 @@
 			)
 		)
 		(property "LCSC" "C25531"
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27434,7 +27486,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27443,7 +27495,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27451,7 +27503,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27459,7 +27511,7 @@
 			)
 		)
 		(property "JAK Electronics Part Number" ""
-			(at 149.86 27.94 90)
+			(at 146.05 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27468,7 +27520,7 @@
 			)
 		)
 		(property "JAK Electronics Price/Stock" ""
-			(at 149.86 27.94 90)
+			(at 146.05 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27477,7 +27529,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27486,7 +27538,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27495,7 +27547,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 149.86 27.94 0)
+			(at 146.05 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28028,7 +28080,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 138.43 27.94 0)
+		(at 134.62 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28036,7 +28088,7 @@
 		(dnp no)
 		(uuid "ddccb8df-9895-415d-a681-6c2d4fdbfe1a")
 		(property "Reference" "R13"
-			(at 138.43 19.304 0)
+			(at 134.62 19.304 0)
 			(effects
 				(font
 					(size 1 1)
@@ -28044,7 +28096,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 138.43 21.59 0)
+			(at 134.62 21.59 0)
 			(effects
 				(font
 					(size 1 1)
@@ -28052,7 +28104,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28061,7 +28113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28070,7 +28122,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28079,7 +28131,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28088,7 +28140,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28097,7 +28149,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28106,7 +28158,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28115,7 +28167,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28124,7 +28176,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28133,7 +28185,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28142,7 +28194,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28151,7 +28203,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28160,7 +28212,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28169,7 +28221,7 @@
 			)
 		)
 		(property "LCSC" "C25531"
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28178,7 +28230,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28187,7 +28239,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28195,7 +28247,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28203,7 +28255,7 @@
 			)
 		)
 		(property "JAK Electronics Part Number" ""
-			(at 138.43 27.94 90)
+			(at 134.62 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28212,7 +28264,7 @@
 			)
 		)
 		(property "JAK Electronics Price/Stock" ""
-			(at 138.43 27.94 90)
+			(at 134.62 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28221,7 +28273,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28230,7 +28282,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28239,7 +28291,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 138.43 27.94 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28324,6 +28376,242 @@
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 153.67 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f25f0f21-cfac-4edb-b20c-6250b6eb8fbf")
+		(property "Reference" "R19"
+			(at 153.67 19.304 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 21.59 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25531"
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JAK Electronics Part Number" ""
+			(at 153.67 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JAK Electronics Price/Stock" ""
+			(at 153.67 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 153.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "906c75eb-591a-41fe-a62c-9a8482e13d09")
+		)
+		(pin "2"
+			(uuid "23bf810d-4fbf-4815-a975-6a3d6ce0bdc5")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2"
+					(reference "R19")
 					(unit 1)
 				)
 			)

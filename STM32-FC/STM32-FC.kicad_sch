@@ -5546,12 +5546,8 @@
 		(uuid "1e2bc0fb-586e-44aa-b2a1-61c0839f5f0d")
 	)
 	(no_connect
-		(at 110.49 100.33)
+		(at 59.69 95.25)
 		(uuid "23652417-573a-47d0-90f8-588ce187cd05")
-	)
-	(no_connect
-		(at 110.49 97.79)
-		(uuid "35152adc-8992-4481-a506-d2ae4523534f")
 	)
 	(no_connect
 		(at 59.69 110.49)
@@ -5568,10 +5564,6 @@
 	(no_connect
 		(at 59.69 148.59)
 		(uuid "7a1bbb88-9c98-493b-85d0-b89606de537f")
-	)
-	(no_connect
-		(at 59.69 85.09)
-		(uuid "89e8699a-460d-4c86-9aaf-688b406a4feb")
 	)
 	(no_connect
 		(at 110.49 74.93)
@@ -5594,7 +5586,7 @@
 		(uuid "bd4aba83-5f4d-4962-9688-ec2ddfba07fb")
 	)
 	(no_connect
-		(at 59.69 107.95)
+		(at 59.69 100.33)
 		(uuid "c38f6b9c-18eb-4132-921d-a29becafb4ee")
 	)
 	(no_connect
@@ -5602,8 +5594,16 @@
 		(uuid "cf5cebe4-f474-4bce-bf30-f74eaec89ceb")
 	)
 	(no_connect
+		(at 59.69 102.87)
+		(uuid "d4864ea0-913b-4b35-8075-dbb5771dd74b")
+	)
+	(no_connect
 		(at 110.49 115.57)
 		(uuid "d8b3392a-d321-4c29-8faa-f0c6253b77cd")
+	)
+	(no_connect
+		(at 59.69 97.79)
+		(uuid "eb5b40e4-ad03-4163-9bcd-86f0f2916805")
 	)
 	(no_connect
 		(at 110.49 140.97)
@@ -6075,6 +6075,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 80.01) (xy 49.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141d81ff-8c51-4d59-bfc7-1140d48336a0")
+	)
+	(wire
+		(pts
 			(xy 182.88 29.21) (xy 193.04 29.21)
 		)
 		(stroke
@@ -6345,7 +6355,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 97.79) (xy 49.53 97.79)
+			(xy 59.69 107.95) (xy 49.53 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6355,7 +6365,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 95.25) (xy 49.53 95.25)
+			(xy 110.49 97.79) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7145,7 +7155,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 102.87) (xy 49.53 102.87)
+			(xy 110.49 100.33) (xy 120.65 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7185,7 +7195,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 100.33) (xy 49.53 100.33)
+			(xy 59.69 105.41) (xy 49.53 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7345,7 +7355,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 80.01) (xy 49.53 80.01)
+			(xy 59.69 82.55) (xy 49.53 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7395,7 +7405,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 125.73) (xy 120.65 125.73)
+			(xy 110.49 120.65) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7735,17 +7745,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 105.41) (xy 49.53 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ce84b9-6043-4b70-a967-d3a51879e41c")
-	)
-	(wire
-		(pts
-			(xy 59.69 82.55) (xy 49.53 82.55)
+			(xy 59.69 85.09) (xy 49.53 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7815,7 +7815,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 123.19) (xy 120.65 123.19)
+			(xy 110.49 118.11) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7915,7 +7915,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 148.59) (xy 120.65 148.59)
+			(xy 110.49 146.05) (xy 120.65 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7965,7 +7965,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 120.65) (xy 120.65 120.65)
+			(xy 110.49 125.73) (xy 120.65 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8035,7 +8035,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 118.11) (xy 120.65 118.11)
+			(xy 110.49 123.19) (xy 120.65 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8265,7 +8265,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 146.05) (xy 120.65 146.05)
+			(xy 110.49 148.59) (xy 120.65 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8394,7 +8394,7 @@
 		(uuid "09f62f73-d733-4826-b322-b52a4d404d1d")
 	)
 	(label "PM_VOLTAGE"
-		(at 120.65 148.59 180)
+		(at 120.65 146.05 180)
 		(effects
 			(font
 				(size 1 1)
@@ -8534,7 +8534,7 @@
 		(uuid "217df113-b131-49d6-988c-a2965167a262")
 	)
 	(label "I2C1_SDA"
-		(at 120.65 120.65 180)
+		(at 120.65 125.73 180)
 		(effects
 			(font
 				(size 1 1)
@@ -8564,7 +8564,7 @@
 		(uuid "298e0c67-748e-4739-a1db-51e2bac27b4f")
 	)
 	(label "GPS1_SCL"
-		(at 120.65 123.19 180)
+		(at 120.65 118.11 180)
 		(effects
 			(font
 				(size 1 1)
@@ -8644,12 +8644,12 @@
 		(uuid "413c656c-b830-4ff2-a32a-ded880f59bee")
 	)
 	(label "GYRO1_NSS"
-		(at 49.53 95.25 0)
+		(at 120.65 97.79 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "48b7dc32-942e-4d4b-96fb-9b60e73f013a")
 	)
@@ -8684,7 +8684,7 @@
 		(uuid "4faa4af2-dcbe-4465-9e16-2c1de50d6400")
 	)
 	(label "GPS1_SDA"
-		(at 120.65 125.73 180)
+		(at 120.65 120.65 180)
 		(effects
 			(font
 				(size 1 1)
@@ -8774,7 +8774,7 @@
 		(uuid "626f197f-2420-462b-a823-e50ba0a270a3")
 	)
 	(label "MAG_NSS"
-		(at 49.53 100.33 0)
+		(at 49.53 105.41 0)
 		(effects
 			(font
 				(size 1 1)
@@ -8824,12 +8824,12 @@
 		(uuid "6ca5c6bc-d524-4488-be77-c8b93056060b")
 	)
 	(label "BARO_NSS"
-		(at 49.53 102.87 0)
+		(at 120.65 100.33 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6d3160eb-8b8e-47cc-bdba-976917a8b25b")
 	)
@@ -8884,7 +8884,7 @@
 		(uuid "73c81b44-2bd8-4205-8518-b0c49754cd70")
 	)
 	(label "PM_CURRENT"
-		(at 120.65 146.05 180)
+		(at 120.65 148.59 180)
 		(effects
 			(font
 				(size 1 1)
@@ -9214,7 +9214,7 @@
 		(uuid "b609f9ca-cff6-4ac3-b35f-86e331a9a83a")
 	)
 	(label "GYRO2_NSS"
-		(at 49.53 97.79 0)
+		(at 49.53 107.95 0)
 		(effects
 			(font
 				(size 1 1)
@@ -9222,6 +9222,16 @@
 			(justify left bottom)
 		)
 		(uuid "b6f60311-5c2b-44cc-ac7e-10274062fe82")
+	)
+	(label "FLASH_NSS"
+		(at 49.53 80.01 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b97cc5ae-a6c3-4a13-9129-908df43fafb4")
 	)
 	(label "PPM_IN"
 		(at 193.04 29.21 180)
@@ -9234,7 +9244,7 @@
 		(uuid "ba8ceea8-cd95-4af4-b1db-4093727c6a59")
 	)
 	(label "I2C1_SCL"
-		(at 120.65 118.11 180)
+		(at 120.65 123.19 180)
 		(effects
 			(font
 				(size 1 1)
@@ -9254,7 +9264,7 @@
 		(uuid "bdaf057c-ef8e-452b-b9b4-b04a22241506")
 	)
 	(label "LED_BLUE"
-		(at 49.53 82.55 0)
+		(at 49.53 85.09 0)
 		(effects
 			(font
 				(size 1 1)
@@ -9554,7 +9564,7 @@
 		(uuid "e9b31fd5-195e-4128-accb-196d2013103b")
 	)
 	(label "LED_YELLOW"
-		(at 49.53 80.01 0)
+		(at 49.53 82.55 0)
 		(effects
 			(font
 				(size 1 1)
@@ -9602,16 +9612,6 @@
 			(justify right bottom)
 		)
 		(uuid "f1a9cf72-a5d8-4692-8a0b-a58efd5e3e77")
-	)
-	(label "FLASH_NSS"
-		(at 49.53 105.41 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1cbb63f-69d8-464d-88df-664d58a45dc2")
 	)
 	(label "MAIN[1..8]"
 		(at 148.59 43.18 90)
