@@ -330,7 +330,7 @@
 		(uuid "b836e9d0-b271-4140-923c-2b0271d304b5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/PWM_Connector/triple-row-male-pin-headers-1.snapshot.4/3x4 Male Pin Header.STEP"
+	(model "${KIPRJMOD}/lib/Connector/PWM_Connector/PWM_Connector.pretty/step/3x4 Male Pin Header.STEP"
 		(offset
 			(xyz 0 4 0)
 		)

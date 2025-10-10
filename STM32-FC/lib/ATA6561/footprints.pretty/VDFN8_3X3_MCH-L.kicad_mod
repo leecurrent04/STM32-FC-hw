@@ -1,7 +1,7 @@
 (footprint "VDFN8_3X3_MCH-L"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "ATA6561-GBQW ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "039e61f0-3d69-4b2d-a9ad-cb68446513f5")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -93,7 +81,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "02d6120b-f958-4005-bdf4-2a3324b42165")
 	)
@@ -275,7 +263,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8c2ac70d-a6b7-49e2-b989-632b9972cd4c")
 	)
@@ -294,59 +282,60 @@
 	(pad "1" smd rect
 		(at -1.3716 -0.9906)
 		(size 0.6604 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8c7f3cd8-680b-42b6-bfbb-e480f2bda20c")
 	)
 	(pad "2" smd rect
 		(at -1.3716 -0.3302)
 		(size 0.6604 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9621acdc-1a66-4f70-ac59-ebe3d0db4f84")
 	)
 	(pad "3" smd rect
 		(at -1.3716 0.3302)
 		(size 0.6604 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31b06cb4-f700-4355-861f-1cb85504ac38")
 	)
 	(pad "4" smd rect
 		(at -1.3716 0.9906)
 		(size 0.6604 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ea6b5bd0-b61e-4787-b5c7-0cdb0df6e804")
 	)
 	(pad "5" smd rect
 		(at 1.3716 0.9906)
 		(size 0.6604 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "65e25e3b-33e7-43ea-8b5a-25eb57ab663e")
 	)
 	(pad "6" smd rect
 		(at 1.3716 0.3302)
 		(size 0.6604 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fdd53e52-2ace-4f80-8f78-0032d925a4dd")
 	)
 	(pad "7" smd rect
 		(at 1.3716 -0.3302)
 		(size 0.6604 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "40bdbea7-d3d0-4147-a5dc-2f08e933b9ff")
 	)
 	(pad "8" smd rect
 		(at 1.3716 -0.9906)
 		(size 0.6604 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "16f0d31b-dd5d-4bcf-a9c2-482cb0317244")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 1.7018 2.4892)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.025)
 		(uuid "8ed431fd-985e-4f17-b93d-b4727c0e55c8")
 	)
-	(model "${KIPRJMOD}/Custom_Parts/ATA6561/VDFN8_3X3_MCH.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/ATA6561/VDFN8_3X3_MCH.step"
 		(offset
 			(xyz 0 0 0)
 		)

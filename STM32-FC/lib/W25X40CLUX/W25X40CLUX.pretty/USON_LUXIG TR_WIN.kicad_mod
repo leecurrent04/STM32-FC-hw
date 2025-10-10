@@ -1,7 +1,7 @@
 (footprint "USON_LUXIG TR_WIN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "W25X40CLUXIG TR ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f1214f63-eb8e-4ea0-863a-cad8a2b35b32")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -92,7 +80,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "005a4e6f-2b8f-4161-9b8b-c3c4480c48ca")
 	)
@@ -274,7 +262,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7b1dc7eb-478f-415e-b720-d7f29c443f0e")
 	)
@@ -293,58 +281,59 @@
 	(pad "1" smd rect
 		(at -1.2446 -0.750189)
 		(size 0.4064 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8d174ae7-057a-43b7-bd46-8aae844637d9")
 	)
 	(pad "2" smd rect
 		(at -1.2446 -0.250063)
 		(size 0.4064 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "151ec720-1cc7-40b0-9ad9-605c0d183fb9")
 	)
 	(pad "3" smd rect
 		(at -1.2446 0.250063)
 		(size 0.4064 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2bb78d21-f093-48fd-94e7-80db304080b3")
 	)
 	(pad "4" smd rect
 		(at -1.2446 0.750189)
 		(size 0.4064 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0c11f0d5-e768-4b34-a744-fc7a1afa4717")
 	)
 	(pad "5" smd rect
 		(at 1.2446 0.750189)
 		(size 0.4064 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bdca021c-1e81-4611-9d66-d3ba5a5986b5")
 	)
 	(pad "6" smd rect
 		(at 1.2446 0.250063)
 		(size 0.4064 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "06c97ae6-aab2-4154-87c9-686c60113aee")
 	)
 	(pad "7" smd rect
 		(at 1.2446 -0.250063)
 		(size 0.4064 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "386d4e6c-f990-47af-9961-b36e27c6479c")
 	)
 	(pad "8" smd rect
 		(at 1.2446 -0.750189)
 		(size 0.4064 0.3048)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4ff3dc7c-58d1-42c7-af91-87f4ca7448c0")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 0.254 1.651)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2f291640-3138-467c-aded-d25a0c1fd34d")
 	)
-	(model "${KIPRJMOD}/Custom_Parts/W25X40CLUX/USON_LUXIGTR_WIN.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/W25X40CLUX/W25X40CLUX.pretty/USON_LUXIG_TR_WIN.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -28356,7 +28356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "W25X40CLUX:USON_LUXIG_TR_HandSolder"
+		(property "Footprint" "W25X40CLUX:USON_LUXIG TR_WIN"
 			(at 80.01 39.37 0)
 			(effects
 				(font
@@ -28365,7 +28365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://w25x40cl_f 20140325.pdf"
+		(property "Datasheet" ""
 			(at 80.01 39.37 0)
 			(effects
 				(font
