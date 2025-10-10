@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "LIS2MDLTR"
 		(pin_names
 			(offset 1.016)
@@ -10,21 +10,20 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -15.24 13.97 0)
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
 		(property "Value" "LIS2MDLTR"
-			(at -15.24 -17.78 0)
+			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "PQFN50P200X200X70-12N"
@@ -33,7 +32,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -92,7 +90,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -106,8 +103,8 @@
 		)
 		(symbol "LIS2MDLTR_0_0"
 			(rectangle
-				(start -15.24 -15.24)
-				(end 15.24 12.7)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -116,8 +113,26 @@
 					(type background)
 				)
 			)
+			(pin input line
+				(at -15.24 10.16 0)
+				(length 5.08)
+				(name "CS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin input clock
-				(at -20.32 2.54 0)
+				(at -15.24 7.62 0)
 				(length 5.08)
 				(name "SCL/SPC"
 					(effects
@@ -134,17 +149,35 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 20.32 7.62 180)
+			(pin bidirectional line
+				(at -15.24 2.54 0)
 				(length 5.08)
-				(name "VDD_IO"
+				(name "SDA/SDI/SDO"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "10"
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 0 0)
+				(length 5.08)
+				(name "INT/DRDY/SDO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -153,7 +186,25 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -5.08 180)
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "NC1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -7.62 0)
 				(length 5.08)
 				(name "NC2"
 					(effects
@@ -171,7 +222,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -7.62 180)
+				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "NC3"
 					(effects
@@ -188,17 +239,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -2.54 180)
+			(pin power_in line
+				(at 15.24 10.16 180)
 				(length 5.08)
-				(name "NC1"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -206,35 +257,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 5.08 0)
+			(pin power_in line
+				(at 15.24 7.62 180)
 				(length 5.08)
-				(name "CS"
+				(name "VDD_IO"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -20.32 -2.54 0)
-				(length 5.08)
-				(name "SDA/SDI/SDO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -243,7 +276,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 2.54 180)
+				(at 15.24 2.54 180)
 				(length 5.08)
 				(name "C1"
 					(effects
@@ -261,7 +294,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -12.7 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -278,26 +311,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -20.32 -5.08 0)
-				(length 5.08)
-				(name "INT/DRDY/SDO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 20.32 -12.7 180)
+				(at 15.24 -10.16 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -314,24 +329,7 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 20.32 10.16 180)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 )

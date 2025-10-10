@@ -5,9 +5,9 @@
 	(uuid "6e636a28-5803-40b4-94a1-9f29a76691ff")
 	(paper "A4")
 	(title_block
-		(title "STM32 Flight Controller")
-		(date "2025-09-16")
-		(rev "v1.0.1")
+		(title "NARAEON - Flight Controller")
+		(date "2025-10-09")
+		(rev "v1.1.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
 		(comment 2 "2024 Winter UAV Project ")
@@ -121,128 +121,6 @@
 					(at 0 0 90)
 					(length 0)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "+5V_1"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -460,7 +338,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN_BEC"
+		(symbol "Device:Q_NPN"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -477,7 +358,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NPN_BEC"
+			(property "Value" "Q_NPN"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -504,7 +385,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NPN transistor, base/emitter/collector"
+			(property "Description" "NPN bipolar junction transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -513,7 +394,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NPN"
+			(property "ki_keywords" "BJT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -522,10 +403,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NPN_BEC_0_1"
+			(symbol "Q_NPN_0_1"
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -549,7 +442,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -572,7 +465,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -583,10 +476,10 @@
 					)
 				)
 			)
-			(symbol "Q_NPN_BEC_1_1"
+			(symbol "Q_NPN_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -594,7 +487,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -612,7 +505,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -630,7 +523,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1636,7 +1529,7 @@
 		)
 		(uuid "cf0ac049-23b8-4ef0-b1d9-b9933b5aaf83")
 	)
-	(text "SM04B-GHS-TBT\n\nPA9 : USART1_TX\nPA10 : USART1_RX\n"
+	(text "GH 1.25mm 4P\n\nPA9 : USART1_TX\nPA10 : USART1_RX\n"
 		(exclude_from_sim no)
 		(at 89.916 96.774 0)
 		(effects
@@ -2564,7 +2457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0584e74f-9f34-45c9-bf39-27a2c3aa7247")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR081"
 			(at 121.92 102.87 0)
 			(effects
 				(font
@@ -2615,7 +2508,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR0122")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "178784e7-45cd-4c65-93c7-cad49d8e9545")
-		(property "Reference" "J17"
+		(property "Reference" "J7"
 			(at 55.88 90.17 0)
 			(effects
 				(font
@@ -2682,6 +2575,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "7ad216c4-25da-46a7-899f-6bf98afa28b4")
 		)
@@ -2721,7 +2641,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "J17")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2737,7 +2657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d27329e-9723-437a-84fa-5ff04dfdda7c")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -2890,6 +2810,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfec6ba6-5faf-48ab-9d18-ce79978a998d")
 		)
@@ -2899,14 +2846,13 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 73.66 43.18 270)
 		(unit 1)
@@ -2915,7 +2861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "240bd35d-8fe5-41a2-b438-a3e22f5b4881")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR075"
 			(at 69.85 43.18 0)
 			(effects
 				(font
@@ -2951,7 +2897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 73.66 43.18 0)
 			(effects
 				(font
@@ -2966,7 +2912,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR05")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -2981,7 +2927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c330477-e16a-4718-95b3-ef45d06a0a44")
-		(property "Reference" "R20"
+		(property "Reference" "R19"
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -3134,6 +3080,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 118.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 118.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 118.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "777bb700-bd01-4eff-8c9b-0dafa56053c8")
 		)
@@ -3143,14 +3116,14 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BEC")
+		(lib_id "Device:Q_NPN")
 		(at 137.16 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3160,7 +3133,7 @@
 		(fields_autoplaced yes)
 		(uuid "330fbb52-a102-4ea6-a5c1-13fa430a1a62")
 		(property "Reference" "Q2"
-			(at 142.24 38.0999 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3169,7 +3142,7 @@
 			)
 		)
 		(property "Value" "S9013"
-			(at 142.24 40.6399 0)
+			(at 142.24 40.64 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3195,7 +3168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NPN bipolar junction transistor"
 			(at 137.16 39.37 0)
 			(effects
 				(font
@@ -3312,13 +3285,40 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Height" ""
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
 			(uuid "2d198956-6687-48b5-a2df-07b6879750af")
 		)
-		(pin "2"
+		(pin "E"
 			(uuid "588871ac-b893-4f3f-b507-71891ba5c974")
 		)
-		(pin "3"
+		(pin "B"
 			(uuid "01904384-d41e-4bf4-8e54-3f328a780195")
 		)
 		(instances
@@ -3331,7 +3331,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 73.66 66.04 270)
 		(unit 1)
@@ -3340,7 +3339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3be32d72-3d9a-47f7-8403-0720c5dce639")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR076"
 			(at 69.85 66.04 0)
 			(effects
 				(font
@@ -3376,7 +3375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -3391,7 +3390,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR014")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3423,7 +3422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JST_ZH:JST_ZH_S4B-ZR-SM4A-TF_1x04-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR-SM4-TF_1x04-1MP_P1.50mm_Vertical"
 			(at 115.57 73.66 0)
 			(effects
 				(font
@@ -3558,6 +3557,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 115.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efcad37d-11f8-459c-a015-84bb18b2e496")
 		)
@@ -3590,7 +3616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e7e80f0-d3d1-4f74-be16-ebadd14705bd")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR082"
 			(at 139.7 26.67 0)
 			(effects
 				(font
@@ -3640,7 +3666,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR052")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -3724,7 +3750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6058e37a-9b3a-4d61-99cf-2ce5e5fe80bc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR072"
 			(at 72.39 77.47 0)
 			(effects
 				(font
@@ -3775,7 +3801,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR013")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3791,7 +3817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6226b02e-256f-44b3-a397-dee29117865a")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR077"
 			(at 125.73 46.99 0)
 			(effects
 				(font
@@ -3843,14 +3869,13 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR075")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 60.96 30.48 90)
 		(unit 1)
@@ -3859,7 +3884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ee013aa-437a-45f0-ab2c-c3aeff91f0e5")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR070"
 			(at 64.77 30.48 0)
 			(effects
 				(font
@@ -3895,7 +3920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 60.96 30.48 0)
 			(effects
 				(font
@@ -3910,7 +3935,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR072")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3927,7 +3952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88318095-b897-4731-8fcd-cc7c3f18a2db")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR069"
 			(at 39.37 92.71 0)
 			(effects
 				(font
@@ -3977,7 +4002,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR051")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3994,7 +4019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bdb394e-95a7-4cbc-9d78-8734053177de")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR071"
 			(at 72.39 54.61 0)
 			(effects
 				(font
@@ -4045,7 +4070,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR074")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c04f4ae-27d6-4019-98f1-c31880ce929b")
-		(property "Reference" "J16"
+		(property "Reference" "J9"
 			(at 115.57 100.33 0)
 			(effects
 				(font
@@ -4070,7 +4095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM04B-GHS-TBT"
+		(property "Value" "GH 1.25mm 4P"
 			(at 115.57 102.87 0)
 			(effects
 				(font
@@ -4249,6 +4274,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4a265f56-20a2-4d1b-ae5d-611713361f0e")
 		)
@@ -4264,7 +4316,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "J16")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4279,7 +4331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0fa39c0-98b4-4e0b-aed9-8dbb5c45199e")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 55.88 36.83 0)
 			(effects
 				(font
@@ -4331,6 +4383,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "e9454c9c-0fdd-4227-a63a-5018a90079e0")
 		)
@@ -4370,7 +4449,7 @@
 		(instances
 			(project ""
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4453,7 +4532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaa4e0cf-c8d5-4a5c-9a0e-e97e9d4a1da8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR074"
 			(at 64.77 96.52 0)
 			(effects
 				(font
@@ -4504,7 +4583,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR041")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4520,7 +4599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b52a249d-0b10-4d8a-ab6e-f66bc50556e7")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR080"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -4571,7 +4650,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR0121")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -4586,7 +4665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6888d82-e15e-4418-9c6e-0e39345d5113")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG06"
 			(at 73.025 30.48 0)
 			(effects
 				(font
@@ -4636,7 +4715,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#FLG05")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -4651,7 +4730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8b420e7-3b3a-4a94-b4ad-ce7c4350d7f6")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 136.652 26.67 0)
 			(effects
 				(font
@@ -4802,6 +4881,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b608ba62-8bd8-47a0-9243-ab3d4045282a")
 		)
@@ -4811,7 +4917,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4878,6 +4984,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "3cb63bbc-fee6-4c0b-bfec-cfeb998487f5")
 		)
@@ -4932,7 +5065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d90f39a1-8ac9-46c5-bcad-86aefa080460")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 127 36.83 90)
 			(effects
 				(font
@@ -5083,6 +5216,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 127 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 127 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 127 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f8ed8f1-0982-4ffc-ad30-b5c752c4ba5d")
 		)
@@ -5092,7 +5252,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5108,7 +5268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0e59bcd-dc48-4432-92a9-c7758d7d721b")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR083"
 			(at 139.7 52.07 0)
 			(effects
 				(font
@@ -5159,7 +5319,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR081")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -5176,7 +5336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1844b36-1c51-4627-912c-edd5372ab6d1")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR073"
 			(at 72.39 107.95 0)
 			(effects
 				(font
@@ -5227,7 +5387,7 @@
 		(instances
 			(project "STM32-FC"
 				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/77caf73d-b7f5-48a6-9de3-ef3df69ee7d9"
-					(reference "#PWR038")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

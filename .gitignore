@@ -5,4 +5,7 @@ STM32-FC/sim
 STM32-FC/lib/trashbin
 STM32-FC/production/backups
 
+STM32-FC/lib/Connector/JST_GH
+STM32-FC/lib/Connector/JST_ZH
+
 DevTool/DevTool-backups
