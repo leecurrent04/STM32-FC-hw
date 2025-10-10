@@ -2442,9 +2442,9 @@
 			(checksum "2F1D18506AF95E37D35BF9EDF99AC7BA")
 		)
 	)
-	(model "${KIPRJMOD}/Custom_Parts/MOSFET/Nexperia_SOT1118.pretty/SOT1118.step"
+	(model "${KIPRJMOD}/lib/Nexperia_PMD/Nexperia_PMD.pretty/SOT1118.step"
 		(offset
-			(xyz -0.75 -1.55 1)
+			(xyz -0.7 -1.57 1)
 		)
 		(scale
 			(xyz 1 1 1)

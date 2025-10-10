@@ -10,7 +10,7 @@
 		(rev "v1.1.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
-		(comment 2 "2024 Winter UAV Project ")
+		(comment 2 "* Work in progress")
 	)
 	(lib_symbols
 		(symbol "+3.3V_3"
@@ -1638,7 +1638,7 @@
 		)
 		(uuid "b0870f02-f78e-49ef-9ab3-9ad4225f43a2")
 	)
-	(text "ZH 1.5mm 4P\n\nPA9 : USART1_TX (Half Duplex)"
+	(text "* for Spektrum serial receiver\n** Half Duplex\n\nZH 1.5mm 4P\n\nPA9 : USART1_TX"
 		(exclude_from_sim no)
 		(at 155.956 58.674 0)
 		(effects
@@ -1733,7 +1733,7 @@
 		(uuid "e543beee-90dd-4dc4-80de-687b1a16f607")
 	)
 	(no_connect
-		(at 186.69 73.66)
+		(at 190.5 73.66)
 		(uuid "55dd52d7-9173-4382-a2a4-b18262f1f056")
 	)
 	(wire
@@ -1808,7 +1808,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 106.68) (xy 190.5 105.41)
+			(xy 191.77 106.68) (xy 191.77 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1858,7 +1858,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 97.79) (xy 198.12 97.79)
+			(xy 190.5 97.79) (xy 199.39 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1868,7 +1868,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 191.77 102.87)
+			(xy 190.5 102.87) (xy 193.04 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1928,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 78.74) (xy 189.23 81.28)
+			(xy 193.04 78.74) (xy 193.04 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2158,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 76.2) (xy 189.23 76.2)
+			(xy 190.5 76.2) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2188,7 +2188,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 71.12) (xy 195.58 71.12)
+			(xy 190.5 71.12) (xy 199.39 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2308,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 100.33) (xy 198.12 100.33)
+			(xy 190.5 100.33) (xy 199.39 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 78.74) (xy 189.23 78.74)
+			(xy 190.5 78.74) (xy 193.04 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 105.41) (xy 190.5 105.41)
+			(xy 190.5 105.41) (xy 191.77 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2347,7 @@
 		(uuid "f97c882e-e21b-4502-a0c2-c05805e0f5c5")
 	)
 	(label "RC_TX"
-		(at 198.12 97.79 180)
+		(at 199.39 97.79 180)
 		(effects
 			(font
 				(size 1 1)
@@ -2367,7 +2367,7 @@
 		(uuid "36c42c51-cd3e-483a-84bf-643c230e962f")
 	)
 	(label "RC_TX"
-		(at 195.58 71.12 180)
+		(at 199.39 71.12 180)
 		(effects
 			(font
 				(size 1 1)
@@ -2387,7 +2387,7 @@
 		(uuid "4ae86350-45b5-435a-b510-621c1ec8a17e")
 	)
 	(label "RC_RX"
-		(at 198.12 100.33 180)
+		(at 199.39 100.33 180)
 		(effects
 			(font
 				(size 1 1)
@@ -2549,7 +2549,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 191.77 102.87 270)
+		(at 193.04 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2558,7 +2558,7 @@
 		(fields_autoplaced yes)
 		(uuid "0584e74f-9f34-45c9-bf39-27a2c3aa7247")
 		(property "Reference" "#PWR085"
-			(at 187.96 102.87 0)
+			(at 189.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2567,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 195.58 102.8699 90)
+			(at 196.85 102.8699 90)
 			(effects
 				(font
 					(size 1 1)
@@ -2576,7 +2576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 102.87 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 102.87 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 191.77 102.87 0)
+			(at 193.04 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3494,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 181.61 73.66 0)
+		(at 185.42 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3503,7 +3503,7 @@
 		(dnp no)
 		(uuid "4d4cb29e-d0bc-4e31-9f1c-3e9b15cbc3f2")
 		(property "Reference" "J8"
-			(at 181.61 68.58 0)
+			(at 185.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3511,7 @@
 			)
 		)
 		(property "Value" "ZH 1.5mm 4P"
-			(at 179.07 73.66 90)
+			(at 182.88 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3519,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR-SM4-TF_1x04-1MP_P1.50mm_Vertical"
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3546,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3555,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3564,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3573,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3582,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3591,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3600,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +3609,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3618,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3627,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(property "LCSC" "C485354"
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3645,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3654,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3663,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3672,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 181.61 73.66 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3769,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 81.28 0)
+		(at 193.04 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3778,7 +3778,7 @@
 		(fields_autoplaced yes)
 		(uuid "59f6ec75-09ad-4dba-85a9-97692952d35a")
 		(property "Reference" "#PWR083"
-			(at 189.23 87.63 0)
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3787,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 86.36 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +3805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3814,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 81.28 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4039,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 184.15 100.33 0)
+		(at 185.42 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4048,7 +4048,7 @@
 		(dnp no)
 		(uuid "9c04f4ae-27d6-4019-98f1-c31880ce929b")
 		(property "Reference" "J9"
-			(at 181.61 100.33 0)
+			(at 182.88 100.33 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4057,7 +4057,7 @@
 			)
 		)
 		(property "Value" "GH 1.25mm 4P"
-			(at 181.61 102.87 0)
+			(at 182.88 102.87 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4067,7 +4067,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4085,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4094,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4103,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4112,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4121,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +4130,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4139,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4148,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4166,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4175,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4184,7 @@
 			)
 		)
 		(property "LCSC" "C161692"
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4193,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4202,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4210,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4218,7 @@
 			)
 		)
 		(property "JAK Electronics Part Number" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4227,7 @@
 			)
 		)
 		(property "JAK Electronics Price/Stock" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4236,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4245,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4254,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 184.15 100.33 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4418,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 189.23 76.2 270)
+		(at 193.04 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4427,7 +4427,7 @@
 		(fields_autoplaced yes)
 		(uuid "a23c979a-713c-463f-a1f9-aaa5c983e136")
 		(property "Reference" "#PWR082"
-			(at 185.42 76.2 0)
+			(at 189.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4436,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 193.04 76.1999 90)
+			(at 196.85 76.1999 90)
 			(effects
 				(font
 					(size 1 1)
@@ -4445,7 +4445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 76.2 0)
+			(at 193.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 76.2 0)
+			(at 193.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 76.2 0)
+			(at 193.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4552,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 106.68 0)
+		(at 191.77 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4561,7 +4561,7 @@
 		(fields_autoplaced yes)
 		(uuid "b52a249d-0b10-4d8a-ab6e-f66bc50556e7")
 		(property "Reference" "#PWR084"
-			(at 190.5 113.03 0)
+			(at 191.77 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 111.76 0)
+			(at 191.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 106.68 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 106.68 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 106.68 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

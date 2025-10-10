@@ -10,7 +10,7 @@
 		(rev "v1.1.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
-		(comment 2 "2024 Winter UAV Project ")
+		(comment 2 "* Work in progress")
 	)
 	(lib_symbols
 		(symbol "+3.3V_3"
@@ -1591,7 +1591,7 @@
 		)
 		(uuid "5146cbc3-227e-4ee0-82aa-d99a74bdb5f0")
 	)
-	(text "GH 1.25mm 6P\n\nPD8 : UART3_TX\nPD9 : UART3_RX"
+	(text "* Without hardware flow control\n\nGH 1.25mm 6P\n\nPD8 : UART3_TX\nPD9 : UART3_RX"
 		(exclude_from_sim no)
 		(at 23.876 58.674 0)
 		(effects
@@ -1613,7 +1613,7 @@
 		)
 		(uuid "8cbce46f-feb2-4ed2-b239-8414eb484724")
 	)
-	(text "GPS1"
+	(text "GPS"
 		(exclude_from_sim no)
 		(at 194.056 15.494 0)
 		(effects
@@ -1635,7 +1635,7 @@
 		)
 		(uuid "a5de9894-37cd-4f8f-ae1b-8d2ca2ce6c1e")
 	)
-	(text "TELE2 (No hardware flow control)"
+	(text "TELE2"
 		(exclude_from_sim no)
 		(at 23.876 56.134 0)
 		(effects
@@ -1646,7 +1646,7 @@
 		)
 		(uuid "aa1048df-0689-4d1e-b8ee-9acb09e4979c")
 	)
-	(text "GH 1.25mm 6P\n\nGPS1_TX  : PC6 : UART6_TX\nGPS1_RX  : PC7 : UART6_RX\nGPS1_SCL : PB10 : I2C2_SCL\nGPS1_SDA : PB11 : I2C2_SDA"
+	(text "* Secondary GPS only\n\nGH 1.25mm 6P\n\nGPS1_TX  : PC6 : UART6_TX\nGPS1_RX  : PC7 : UART6_RX\nGPS1_SCL : PB10 : I2C2_SCL\nGPS1_SDA : PB11 : I2C2_SDA"
 		(exclude_from_sim no)
 		(at 194.056 18.034 0)
 		(effects

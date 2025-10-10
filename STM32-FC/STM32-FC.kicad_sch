@@ -10,6 +10,7 @@
 		(rev "v1.1.0")
 		(company "NARAE UAV Project ")
 		(comment 1 "INHA Univ. Areo-modelling Club")
+		(comment 2 "* Work in progress")
 	)
 	(lib_symbols
 		(symbol "+3.3V_1"
