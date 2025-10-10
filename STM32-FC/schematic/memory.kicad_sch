@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "NARAEON - Flight Controller")
-		(date "2025-10-10")
+		(date "2025-10-11")
 		(rev "v1.1.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
-		(comment 2 "* Work in progress")
+		(comment 2 "github.com/NARAE-INHA-UNIV")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Socket"
@@ -24933,7 +24933,7 @@
 		)
 		(uuid "202ec5cf-e901-441e-a8bf-307e57270eb4")
 	)
-	(text "SPI3_SCK  : PB3\nSPI3_MISO : PB4\nSPI3_MOSI : PB5\n\nFLASH_NSS : PE11"
+	(text "SPI3_SCK  : PB3\nSPI3_MISO : PB4\nSPI3_MOSI : PB5\n\nFLASH_NSS : PE1"
 		(exclude_from_sim no)
 		(at 23.876 18.034 0)
 		(effects

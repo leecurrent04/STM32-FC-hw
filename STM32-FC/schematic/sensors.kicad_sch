@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "NARAEON - Flight Controller")
-		(date "2025-10-10")
+		(date "2025-10-11")
 		(rev "v1.1.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
-		(comment 2 "* Work in progress")
+		(comment 2 "github.com/NARAE-INHA-UNIV")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Socket"
@@ -1983,7 +1983,7 @@
 		)
 		(uuid "240975e8-81d3-4df0-b94b-f754e5fb7001")
 	)
-	(text "SPI2_SCK  : PB13\nSPI2_MISO : PB14\nSPI2_MOSI : PB15\n\nGYRO2_NSS : PE8"
+	(text "SPI2_SCK  : PB13\nSPI2_MISO : PB14\nSPI2_MOSI : PB15\n\nGYRO2_NSS : PE12"
 		(exclude_from_sim no)
 		(at 23.876 96.774 0)
 		(effects
@@ -1994,7 +1994,7 @@
 		)
 		(uuid "36862f20-e3df-4e11-84b5-4905ed83724f")
 	)
-	(text "SPI1_SCK  : PA5\nSPI1_MISO : PA6\nSPI1_MOSI : PA7\n\nGYRO1_NSS : PB1"
+	(text "SPI1_SCK  : PA5\nSPI1_MISO : PA6\nSPI1_MOSI : PA7\n\nGYRO1_NSS : PB0"
 		(exclude_from_sim no)
 		(at 23.876 18.034 0)
 		(effects
@@ -2005,7 +2005,7 @@
 		)
 		(uuid "81ea2410-6ef1-40f0-bfec-e8a68d35f178")
 	)
-	(text "SPI1_SCK  : PA5\nSPI1_MISO : PA6\nSPI1_MOSI : PA7\n\nBARO_NSS : PE10"
+	(text "SPI1_SCK  : PA5\nSPI1_MISO : PA6\nSPI1_MOSI : PA7\n\nBARO_NSS : PB1"
 		(exclude_from_sim no)
 		(at 126.746 18.034 0)
 		(effects
@@ -2027,7 +2027,7 @@
 		)
 		(uuid "98cb76fc-6ba8-4e94-85b0-6e1ce724039e")
 	)
-	(text "SPI2_SCK  : PB13\nSPI2_MISO : PB14\nSPI2_MOSI : PB15\n\nMAG_NSS : PE9"
+	(text "SPI2_SCK  : PB13\nSPI2_MISO : PB14\nSPI2_MOSI : PB15\n\nMAG_NSS : PE11"
 		(exclude_from_sim no)
 		(at 126.746 71.374 0)
 		(effects

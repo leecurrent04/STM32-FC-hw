@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "NARAEON - Flight Controller")
-		(date "2025-10-10")
+		(date "2025-10-11")
 		(rev "v1.1.0")
 		(company "NARAE UAV Project ")
 		(comment 1 "INHA Univ. Areo-modelling Club")
-		(comment 2 "* Work in progress")
+		(comment 2 "github.com/NARAE-INHA-UNIV")
 	)
 	(lib_symbols
 		(symbol "+3.3V_1"
@@ -5249,7 +5249,7 @@
 		)
 		(uuid "d25b9871-b72d-4b53-879d-90591c3630f9")
 	)
-	(text "R : PE0\nY : PE1\nB : PE2"
+	(text "R : PE0\nY : PE2\nB : PE3"
 		(exclude_from_sim no)
 		(at 199.136 47.244 0)
 		(effects
@@ -8423,7 +8423,7 @@
 		)
 		(uuid "1305f89c-3737-4e5a-86f3-2d9a273d9eb1")
 	)
-	(label "I2C1_SCL"
+	(label "I2C_SCL"
 		(at 193.04 77.47 180)
 		(effects
 			(font
@@ -8533,7 +8533,7 @@
 		)
 		(uuid "217df113-b131-49d6-988c-a2965167a262")
 	)
-	(label "I2C1_SDA"
+	(label "I2C_SDA"
 		(at 120.65 125.73 180)
 		(effects
 			(font
@@ -9243,7 +9243,7 @@
 		)
 		(uuid "ba8ceea8-cd95-4af4-b1db-4093727c6a59")
 	)
-	(label "I2C1_SCL"
+	(label "I2C_SCL"
 		(at 120.65 123.19 180)
 		(effects
 			(font
@@ -9493,7 +9493,7 @@
 		)
 		(uuid "dea45419-885e-4c7a-86b6-68476af83f49")
 	)
-	(label "I2C1_SDA"
+	(label "I2C_SDA"
 		(at 193.04 80.01 180)
 		(effects
 			(font

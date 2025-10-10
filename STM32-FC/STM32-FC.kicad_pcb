@@ -17968,15 +17968,15 @@
 			(uuid "df35bfab-1de6-4b34-ac41-dbdd4d656075")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_ZH_B4B-ZR-SM4-TF_1x04-1MP_P1.50mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/Connector/JST_ZH/S4B-ZR-SM4A-TF.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.25 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)

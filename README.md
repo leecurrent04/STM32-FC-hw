@@ -1,15 +1,26 @@
 
-**본 문서는 STM32 하드웨어만을 다루고 있습니다.**
+**본 문서는 하드웨어만을 다루고 있습니다.**
 
-> [[STM32-FC]](https://github.com/NARAE-INHA-UNIV/STM32-FC) STM32 Firmware & Source code<br>
+> [[STM32-FC]](https://github.com/NARAE-INHA-UNIV/STM32-FC) NARAEON Firmware & Source code<br>
 
 -----
 
-# STM32-FC-hw
+# NARAEON : STM32-based Flight Controller
+![pcb img](./NARAEON.png)
 
-![pcb img](./STM32-FC.jpg)
+STM32F407VET6x를 기반으로한 Flight contoller.
 
-PCB 보드에 릴리즈 날짜와 버전이 기록되어 있지 않으면 v1.0.0 버전 입니다.
+## Spec.
+
+| PCB 보드에 릴리즈 날짜와 버전이 기록되어 있지 않으면 v1.0.0 버전 입니다.
+현재 최신 버전은 v1.1.0 입니다.
+
+- ICM-45686 & ICM-42688-P dual IMU
+- LIS2MDL eCompass
+- ICP-20100 pressure sensor
+- 내장 Flash memory & Micro SD card
+- IBUS, SBUS, SRXL2, ELRS, PPM RC 프로토콜 지원
+
 
 ## 기여 (개발)
 

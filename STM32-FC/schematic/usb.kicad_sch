@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "NARAEON - Flight Controller")
-		(date "2025-10-10")
+		(date "2025-10-11")
 		(rev "v1.1.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
-		(comment 2 "* Work in progress")
+		(comment 2 "github.com/NARAE-INHA-UNIV")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -3879,7 +3879,7 @@
 		)
 		(uuid "93c5c49a-185c-423d-a2f7-24b28d39f542")
 	)
-	(text "GH 1.25mm 6P\n\nPM_CURRENT : PC2 : ADC123_IN12\nPM_VOLTAGE : PC3 : ADC123_IN13"
+	(text "GH 1.25mm 6P\n\nPM_CURRENT : PC3 : ADC123_IN13\nPM_VOLTAGE : PC2 : ADC123_IN12\n"
 		(exclude_from_sim no)
 		(at 206.756 18.034 0)
 		(effects

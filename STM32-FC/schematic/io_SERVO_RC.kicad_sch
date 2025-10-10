@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "NARAEON - Flight Controller")
-		(date "2025-10-10")
+		(date "2025-10-11")
 		(rev "v1.1.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
-		(comment 2 "* Work in progress")
+		(comment 2 "github.com/NARAE-INHA-UNIV")
 	)
 	(lib_symbols
 		(symbol "+3.3V_3"
