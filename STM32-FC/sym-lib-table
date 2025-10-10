@@ -7,5 +7,6 @@
   (lib (name "W25X40CLUX")(type "KiCad")(uri "${KIPRJMOD}/lib/W25X40CLUX/W25X40CLUX.kicad_sym")(options "")(descr "Flash memory"))
   (lib (name "ATA6561-GBQW")(type "KiCad")(uri "${KIPRJMOD}/lib/ATA6561/ATA6561-GBQW.kicad_sym")(options "")(descr "CAN"))
   (lib (name "TPS62840")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS62840/TPS62840.kicad_sym")(options "")(descr "DC2DC Buck"))
+  (lib (name "Nexperia_PMD")(type "KiCad")(uri "${KIPRJMOD}/lib/Nexperia_PMD/Nexperia_PMD.kicad_sym")(options "")(descr "MOSFET"))
   (lib (name "PWM_Connector")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector/PWM_Connector/PWM_Connector.kicad_sym")(options "")(descr ""))
 )

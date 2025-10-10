@@ -1860,23 +1860,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1901,7 +1905,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1919,7 +1923,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1928,9 +1932,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1941,252 +1945,23 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_1_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_2_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MountingHole_3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_3_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3897,6 +3672,24 @@
 		(uuid "65afa821-af45-4d51-9e80-c74e58b6a9fe")
 	)
 	(junction
+		(at 116.84 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6de39fce-7c2a-4547-bcfb-9a38e4509a58")
+	)
+	(junction
+		(at 106.68 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7808eda7-f2c0-488e-a135-157e89220f77")
+	)
+	(junction
+		(at 111.76 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d449619-59c2-4852-a5b2-4cb7824e5685")
+	)
+	(junction
 		(at 41.91 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4030,6 +3823,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 96.52) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a64a828-ea8c-45ae-b05c-f604fb99861f")
+	)
+	(wire
+		(pts
 			(xy 154.94 31.75) (xy 162.56 31.75)
 		)
 		(stroke
@@ -4127,6 +3930,16 @@
 			(type default)
 		)
 		(uuid "1b437a10-35b7-4711-a535-607206c7120b")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfb001f-2503-4f63-85a0-643420d4bfee")
 	)
 	(wire
 		(pts
@@ -4320,6 +4133,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 96.52) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44833937-b801-43d5-aa12-8cf30d29c4bc")
+	)
+	(wire
+		(pts
 			(xy 233.68 53.34) (xy 233.68 55.88)
 		)
 		(stroke
@@ -4407,6 +4230,16 @@
 			(type default)
 		)
 		(uuid "540e8b0b-b7d9-4c39-8782-a0611da19cc6")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 101.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c2cb58-48ff-464b-bcf4-349103d362a5")
 	)
 	(wire
 		(pts
@@ -4640,6 +4473,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 96.52) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e6d585-976c-4aa8-a351-c8844ea3d318")
+	)
+	(wire
+		(pts
 			(xy 154.94 72.39) (xy 154.94 67.31)
 		)
 		(stroke
@@ -4717,6 +4560,16 @@
 			(type default)
 		)
 		(uuid "c230c0e1-d80e-4e5e-8812-ae7058ee4e8a")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 106.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a850c8-8140-4f80-86dd-ec690b6d778a")
 	)
 	(wire
 		(pts
@@ -4870,6 +4723,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 95.25) (xy 106.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75f78f1-7cea-43d4-92af-fe86e9807e07")
+	)
+	(wire
+		(pts
 			(xy 177.8 31.75) (xy 185.42 31.75)
 		)
 		(stroke
@@ -4917,6 +4780,16 @@
 			(type default)
 		)
 		(uuid "f40dfc73-b187-4b44-b7b6-bb085f041756")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d2a138-a7e6-424f-9f03-a8eb5364501a")
 	)
 	(wire
 		(pts
@@ -5376,8 +5249,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 114.3 88.9 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 111.76 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5385,16 +5258,15 @@
 		(dnp no)
 		(uuid "1d176455-90b1-4836-bb70-c0cb03dac96e")
 		(property "Reference" "H3"
-			(at 116.84 88.9 0)
+			(at 111.76 88.646 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 116.84 90.1699 0)
+			(at 114.3 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5276,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,7 +5285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,8 +5293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 114.3 88.9 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5303,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5312,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5321,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5330,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5339,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5348,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5357,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5366,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5375,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5384,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5393,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +5402,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5539,7 +5411,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,13 +5420,16 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 114.3 88.9 0)
+			(at 111.76 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "ddc00d9f-ab08-4ee4-9491-bc48bd38727a")
 		)
 		(instances
 			(project "STM32-FC"
@@ -6285,9 +6160,8 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_2")
-		(lib_id "Mechanical:MountingHole")
-		(at 114.3 95.25 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 116.84 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6295,16 +6169,15 @@
 		(dnp no)
 		(uuid "40802c23-599e-4bc8-8249-f69a3af49982")
 		(property "Reference" "H4"
-			(at 116.84 95.25 0)
+			(at 116.84 88.646 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 116.84 96.5199 0)
+			(at 119.38 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6187,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,8 +6204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 114.3 95.25 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6214,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6223,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6232,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6241,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6250,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6259,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6268,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6277,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6286,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6295,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6304,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6313,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6322,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,13 +6331,16 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 114.3 95.25 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "ddcb7246-b7a2-4279-b860-ea669bcde169")
 		)
 		(instances
 			(project "STM32-FC"
@@ -9592,9 +9468,8 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_3")
-		(lib_id "Mechanical:MountingHole")
-		(at 101.6 95.25 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 106.68 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9602,16 +9477,15 @@
 		(dnp no)
 		(uuid "bbd8fec6-e40f-48e2-bb77-c112abe6f7c0")
 		(property "Reference" "H2"
-			(at 104.14 95.25 0)
+			(at 106.68 88.646 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 104.14 96.5199 0)
+			(at 109.22 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +9495,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +9504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,8 +9512,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 95.25 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +9522,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +9531,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +9540,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9549,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +9558,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9567,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9576,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9585,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +9594,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9603,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9612,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,7 +9621,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9630,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,13 +9639,16 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 101.6 95.25 0)
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "c46c7ca2-403d-4a4b-9d0d-045525732acf")
 		)
 		(instances
 			(project "STM32-FC"
@@ -10119,6 +9996,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 118.11 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e29c39-7b86-4a6c-b9a6-09c57fbbaa93")
+		(property "Reference" "#PWR081"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fefb4c0d-ba8a-40d9-a8cc-772d399c07ab")
+		)
+		(instances
+			(project "STM32-FC"
+				(path "/8d4cc317-3933-4aa6-844b-8c5c635e89c7/a4ea5d55-2314-4804-8750-f8f12484bbce"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 187.96 33.02 0)
 		(unit 1)
@@ -10357,9 +10301,8 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_1")
-		(lib_id "Mechanical:MountingHole")
-		(at 101.6 88.9 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 101.6 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10367,16 +10310,15 @@
 		(dnp no)
 		(uuid "e18261be-7b0d-44b0-b034-38ae434299fd")
 		(property "Reference" "H1"
-			(at 104.14 88.9 0)
+			(at 101.6 88.646 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 104.14 90.1699 0)
+			(at 104.14 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +10328,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,7 +10337,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,8 +10345,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 88.9 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +10355,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +10364,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10373,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10382,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10391,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10400,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10409,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +10418,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +10427,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,7 +10436,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10445,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10454,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +10463,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,13 +10472,16 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 101.6 88.9 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "63161f65-2d95-436b-a9fb-ee9e4134514b")
 		)
 		(instances
 			(project "STM32-FC"
