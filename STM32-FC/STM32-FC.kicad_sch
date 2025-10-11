@@ -5051,6 +5051,17 @@
 		)
 		(uuid "5e46f7b0-8091-4950-9258-34ee820df6f8")
 	)
+	(text "2.4 Boot configuration (UM3461)\n  Main flash memory mode\n  BOOT1 : X (Don't care)\n  BOOT0 : 0\n"
+		(exclude_from_sim no)
+		(at 25.146 40.894 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "5f3ce816-50d2-43c7-a52c-04af5a91156c")
+	)
 	(text "VDDA"
 		(exclude_from_sim no)
 		(at 106.68 24.13 0)

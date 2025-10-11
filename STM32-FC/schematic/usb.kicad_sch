@@ -3976,12 +3976,6 @@
 		(uuid "38c40e36-a23d-48fd-a6bb-0b0a99ec4545")
 	)
 	(junction
-		(at 185.42 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bcc7dc5-ba8c-4879-88a8-ffce8f2b85af")
-	)
-	(junction
 		(at 187.96 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4040,12 +4034,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba88f58e-f3e3-4227-99a7-9806f136fb2f")
-	)
-	(junction
-		(at 185.42 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf6b06a0-2a8e-4d52-91b6-6f77bcad21cc")
 	)
 	(junction
 		(at 73.66 38.1)
@@ -4121,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 64.77) (xy 185.42 64.77)
+			(xy 184.15 64.77) (xy 187.96 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4381,6 +4369,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 31.75) (xy 187.96 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31214e28-35b2-4b16-bc35-8fa0e1c8ea2d")
+	)
+	(wire
+		(pts
 			(xy 231.14 48.26) (xy 236.22 48.26)
 		)
 		(stroke
@@ -4491,16 +4489,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 64.77) (xy 187.96 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47998efd-5b7a-424f-9d25-4b30cda95740")
-	)
-	(wire
-		(pts
 			(xy 49.53 139.7) (xy 50.8 139.7)
 		)
 		(stroke
@@ -4601,26 +4589,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 29.21) (xy 187.96 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f8cd818-35e1-455f-808a-18cca9fc07aa")
-	)
-	(wire
-		(pts
-			(xy 185.42 67.31) (xy 185.42 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ced01f-8ba1-40fa-bc08-89e358e32acc")
-	)
-	(wire
-		(pts
 			(xy 185.42 36.83) (xy 187.96 36.83)
 		)
 		(stroke
@@ -4718,6 +4686,16 @@
 			(type default)
 		)
 		(uuid "7f5f3437-3364-4d10-b13d-264bf48d52b7")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 187.96 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a0cef1-8cb0-4831-8389-37d0a687b31c")
 	)
 	(wire
 		(pts
@@ -4841,16 +4819,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 31.75) (xy 185.42 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d9b022-24b7-4911-8f07-933941bc089a")
-	)
-	(wire
-		(pts
 			(xy 86.36 49.53) (xy 99.06 49.53)
 		)
 		(stroke
@@ -4891,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 29.21) (xy 185.42 29.21)
+			(xy 184.15 29.21) (xy 187.96 29.21)
 		)
 		(stroke
 			(width 0)
